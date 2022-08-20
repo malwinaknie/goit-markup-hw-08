@@ -6,11 +6,19 @@ body {
 :root {
     --brand-color: #2196f3;
     --text-color: #212121;
+    --text-decoration-color: #757575;
+    --body-font-size: 700;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
 }
 
 .navigation {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
+    font-size: 14px;
 }
 
 .navigation :hover {
@@ -22,7 +30,9 @@ body {
 }
 
 .contacts {
-    color: #757575;
+    color: var(--text-decoration-color);
+    font-weight: 500;
+    font-size: 14px;
     text-decoration: none;
 }
 
@@ -31,6 +41,27 @@ body {
 }
 
 .contacts:focus {
+    color: var(--brand-color);
+}
+
+.title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: hsla(0, 0%, 100%, 1);
+}
+
+.button {
+    font-weight: var(--body-font-size);
+    font-size: 16px;
+    color: hsla(0, 0%, 100%, 1);
+}
+
+.button:hover {
+    color: var(--brand-color);
+}
+
+.button:focus {
     color: var(--brand-color);
 }
 
@@ -43,9 +74,11 @@ body {
 }
 
 .address > a:hover {
-    color: #2196f3;
+    color: var(--brand-color);
 }
 
 .address > a:focus {
-    color: #2196f3;
+    color: var(--brand-color);
 }
+
+
