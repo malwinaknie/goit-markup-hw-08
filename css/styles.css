@@ -79,15 +79,15 @@ span {
 .button {
     font-weight: var(--body-font-size);
     font-size: 16px;
-    color: hsla(0, 0%, 100%, 1);
+    color: #212121;
     line-height: 1.875;
     cursor: pointer;
-    background-color: #2196f3;
+    background-color: #f5f4fa;
 }
 
 .button:hover {
-    color: var(--brand-color);
-    background-color: #fff;
+    color: #fff;
+    background-color: var(--brand-color);
 }
 
 .button:focus {
@@ -95,7 +95,7 @@ span {
 }
 
 .section-style {
-    background-color: #F5F4FA;
+    background-color: #f5f4fa;
 }
 
 .section-title {
@@ -148,4 +148,17 @@ span {
     color: var(--text-decoration-color);
     font-size: 16px;
     line-height: 1.17;
+}
+
+.content-name {
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.content-type p {
+    color: var(--text-decoration-color);
+    font-size: 16px;
+    line-height: 1.875;
 }
