@@ -1,0 +1,51 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--text-color);
+}
+
+:root {
+    --brand-color: #2196f3;
+    --text-color: #212121;
+}
+
+.navigation {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.navigation :hover {
+    color: var(--brand-color);
+}
+
+.navigation :focus {
+    color: var(--brand-color);
+}
+
+.contacts {
+    color: #757575;
+    text-decoration: none;
+}
+
+.contacts:hover {
+    color: var(--brand-color);
+}
+
+.contacts:focus {
+    color: var(--brand-color);
+}
+
+.address {
+    color: #ffffff;
+}
+
+.address > a {
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.address > a:hover {
+    color: #2196f3;
+}
+
+.address > a:focus {
+    color: #2196f3;
+}
