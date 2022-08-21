@@ -98,7 +98,8 @@ span {
 }
 
 .button:focus {
-    color: var(--brand-color);
+    color: var(--button-hover-white);
+    background-color: var(--brand-color);
 }
 
 .section-gray {
