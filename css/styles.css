@@ -1,6 +1,8 @@
 body {
     font-family: "Roboto", sans-serif;
     color: var(--text-color);
+    width: 100%;
+    height: 2349;
 }
 
 :root {
@@ -16,22 +18,27 @@ body {
     --gray-section-color: #f5f4fa;
     --primary-address-color: #ffffff;
     --secondary-address-color: hsla(0, 0%, 100%, 0.6);
+    --Roboto: "Roboto", sans-serif;
+    --Raleway: "Raleway", sans-serif;
 }
 
 .logo {
     text-decoration: none;
-    font-family: "Raleway", sans-serif;
+    font-family: var(--Raleway);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.17;
     color: var(--logo-black-color);
+    margin: 24px 1240px 25px 215px;
 }
+
 
 span {
     color: var(--brand-color);
 }
 
 .navigation a {
+    font-family: var(--Roboto);
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -60,6 +67,7 @@ span {
 }
 
 .contacts {
+    font-family: var(--Roboto);
     color: var(--text-decoration-color);
     font-weight: 500;
     font-size: 14px;
@@ -76,6 +84,7 @@ span {
 }
 
 .title {
+    font-family: var(--Roboto);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -84,6 +93,7 @@ span {
 }
 
 .button {
+    font-family: var(--Roboto);
     font-weight: var(--body-font-size);
     font-size: 16px;
     color: var(--text-color);
@@ -107,6 +117,7 @@ span {
 }
 
 .section-title {
+    font-family: var(--Roboto);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -117,6 +128,7 @@ span {
 }
 
 .address {
+    font-family: var(--Roboto);
     color: var(--primary-address-color);
     line-height: 1.17;
 }
@@ -134,6 +146,7 @@ span {
 }
 
 .text-container h3 {
+    font-family: var(--Roboto);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.17;
@@ -141,24 +154,28 @@ span {
 }
 
 .text-container p {
+    font-family: var(--Roboto);
     color: var(--text-decoration-color);
     font-size: 14px;
     line-height: 1.71;
 }
 
 .list-item {
+    font-family: var(--Roboto);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.17;
 }
 
 .signature {
+    font-family: var(--Roboto);
     color: var(--text-decoration-color);
     font-size: 16px;
     line-height: 1.17;
 }
 
 .content-name {
+    font-family: var(--Roboto);
     color: var(--text-color);
     font-weight: 700;
     font-size: 18px;
@@ -166,6 +183,7 @@ span {
 }
 
 .content-type p {
+    font-family: var(--Roboto);
     color: var(--text-decoration-color);
     font-size: 16px;
     line-height: 1.875;
