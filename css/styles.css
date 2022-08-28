@@ -20,10 +20,18 @@ body {
     --Raleway: "Raleway", sans-serif;
 }
 
+.container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
 .header-positioning {
     display: flex;
     height: 80px;
-
+    border: 1px solid #ECECEC
+    
 }
 
 .logo {
@@ -33,9 +41,9 @@ body {
     font-size: 26px;
     line-height: 1.17;
     color: var(--logo-black-color);
-    padding-top: 24px;
-    padding-left: 215px;
-    padding-bottom: 25px;
+    margin-top: 24px;
+    margin-left: 15px;
+    margin-bottom: 25px;
     margin-right: 93px;
 
 }
@@ -49,6 +57,7 @@ display: flex;
 gap: 49px;
 margin-right: 371px;
 padding-top: 32px;
+
 
 }
 
@@ -66,11 +75,6 @@ ul {
     margin: 0 0;
     padding: 0;
 }
-
-/* .markers .markers-none {
-    list-style-type: none;
-    list-style: none;
-} */
 
 .navigation .current-link {
     color: var(--brand-color);
@@ -92,8 +96,7 @@ ul {
     display: flex;
     padding-top: 32px;
     gap: 50px;
-
-
+    padding-right: 27px;
 }
 
 .contacts {
@@ -103,7 +106,6 @@ ul {
     font-size: 14px;
     line-height: 1.17;
     text-decoration: none;
-    /* border: 1px solid black; */
 }
 
 .contacts:hover {
@@ -114,13 +116,22 @@ ul {
     color: var(--brand-color);
 }
 
-.title {
+.title-background {
+    background-color: var(--background-color);
+    height: 600px;
+    margin-top: 0;
+}
+
+h1{
     font-family: var(--Roboto);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     color: var(--title-white-color);
-    background-color: var(--background-color);
+    text-align: center;
+    margin: 0;
+    padding: 200px 452px 30px;
+    
 }
 
 .button {
@@ -131,6 +142,12 @@ ul {
     line-height: 1.875;
     cursor: pointer;
     background-color: var(--button-background-color);
+    padding: 10px 41px 10px 42px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 200px;
+    border-radius: 4px;
 }
 
 .button:hover {
@@ -145,7 +162,6 @@ ul {
 
 .section-gray {
     background-color: var(--gray-section-color);
-    width: 1600px;
 }
 
 .section-title {
