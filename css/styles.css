@@ -24,14 +24,12 @@ body {
     display: flex;
     width: 1200px;
     margin: 0 auto;
-    
 }
 
 .header-positioning {
     display: flex;
     height: 80px;
-    border: 1px solid #ECECEC
-    
+    border: 1px solid #ececec;
 }
 
 .logo {
@@ -45,7 +43,6 @@ body {
     margin-left: 15px;
     margin-bottom: 25px;
     margin-right: 93px;
-
 }
 
 span {
@@ -53,12 +50,10 @@ span {
 }
 
 .navigation .nav-position {
-display: flex;
-gap: 49px;
-margin-right: 371px;
-padding-top: 32px;
-
-
+    display: flex;
+    gap: 49px;
+    margin-right: 371px;
+    padding-top: 32px;
 }
 
 .navigation a {
@@ -92,7 +87,7 @@ ul {
     color: var(--brand-color);
 }
 
-.nav-contact{
+.nav-contact {
     display: flex;
     padding-top: 32px;
     gap: 50px;
@@ -122,7 +117,7 @@ ul {
     margin-top: 0;
 }
 
-h1{
+h1 {
     font-family: var(--Roboto);
     font-weight: 900;
     font-size: 44px;
@@ -132,7 +127,6 @@ h1{
     margin-top: 0;
     padding: 200px 453px 0px;
     margin-bottom: 30px;
-    
 }
 
 .button {
@@ -177,12 +171,12 @@ h1{
 }
 
 .what-we-do-section-pictures ul {
-display: flex;
-justify-content: center;
-gap: 30px;
-margin-bottom: 94px;
-margin-right: 215px;
-margin-left: 215px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 94px;
+    margin-right: 215px;
+    margin-left: 215px;
 }
 
 .our-team-section {
@@ -195,22 +189,27 @@ margin-left: 215px;
     padding-bottom: 50px;
 }
 
-.our-team-boxes ul{
+.our-team-boxes ul {
     display: flex;
 }
 
 .footer-style {
     background-color: var(--background-color);
+    width: 1600px;
+    display: block;
 }
 
 .address {
     font-family: var(--Roboto);
     color: var(--primary-address-color);
     line-height: 1.17;
+    display: block;
+    margin-left: 215px;
 }
 
 .address .footer-contacts {
     color: var(--secondary-address-color);
+    display: block;
 }
 
 .address .footer-contacts:hover {
@@ -230,14 +229,12 @@ margin-left: 215px;
     margin-bottom: 94px;
 }
 
-
-    h3 {
+h3 {
     font-family: var(--Roboto);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.17;
     color: var(--text-color);
-
 }
 
 .text-container p {
@@ -285,11 +282,15 @@ margin-left: 215px;
     background-color: var(--primary-address-color);
     margin-right: 30px;
     margin-bottom: 94px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;    
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
     justify-content: center;
 }
 
 .workers-boxes:not(:last-child) {
     margin-right: 30px;
-  }
+}
+
+.footer-style .logo {
+}
