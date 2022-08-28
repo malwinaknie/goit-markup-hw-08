@@ -129,8 +129,9 @@ h1{
     line-height: 1.36;
     color: var(--title-white-color);
     text-align: center;
-    margin: 0;
-    padding: 200px 452px 30px;
+    margin-top: 0;
+    padding: 200px 453px 0px;
+    margin-bottom: 30px;
     
 }
 
@@ -144,8 +145,8 @@ h1{
     background-color: var(--button-background-color);
     padding: 10px 41px 10px 42px;
     display: block;
-    margin-right: auto;
     margin-left: auto;
+    margin-right: auto;
     margin-bottom: 200px;
     border-radius: 4px;
 }
@@ -153,11 +154,13 @@ h1{
 .button:hover {
     color: var(--button-hover-white);
     background-color: var(--brand-color);
+    border-color: var(--brand-color);
 }
 
 .button:focus {
     color: var(--button-hover-white);
     background-color: var(--brand-color);
+    border-color: var(--brand-color);
 }
 
 .section-gray {
@@ -169,6 +172,30 @@ h1{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.what-we-do-section-pictures ul {
+display: flex;
+justify-content: center;
+gap: 30px;
+margin-bottom: 94px;
+margin-right: 215px;
+margin-left: 215px;
+}
+
+.our-team-section {
+    font-family: var(--Roboto);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    align-items: center;
+    margin: 94px 695px;
+}
+
+.our-team-boxes ul{
+    display: flex;
 }
 
 .footer-style {
@@ -193,12 +220,23 @@ h1{
     color: var(--brand-color);
 }
 
-.text-container h3 {
+.lorem-ipsum-boxes ul {
+    display: flex;
+    width: 1170px;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
+
+    h3 {
     font-family: var(--Roboto);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.17;
     color: var(--text-color);
+
 }
 
 .text-container p {
