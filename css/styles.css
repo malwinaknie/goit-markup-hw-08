@@ -23,17 +23,17 @@ body {
 .container {
     width: 1200px;
     margin: 0 auto;
-  }
+}
 
 header {
     width: 100%;
-    background: #FFFFFF;
-  }
-  
+    background: #ffffff;
+}
+
 .header-positioning {
     display: flex;
     height: 80px;
-    border: 1px solid #ececec;
+    border-bottom: 1px solid var #ececec;
 }
 
 .logo {
@@ -43,10 +43,10 @@ header {
     font-size: 26px;
     line-height: 1.17;
     color: var(--logo-black-color);
-    margin-top: 24px;
+    /* margin-top: 24px; */
     margin-left: 15px;
-    margin-bottom: 25px;
-    margin-right: 93px;
+    /* margin-bottom: 25px; */
+    /* margin-right: 93px; */
 }
 
 span {
@@ -170,7 +170,8 @@ h1 {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
-    justify-content: center;
+    text-align: center;
+    /* margin-left: 634px; */
     margin-bottom: 50px;
 }
 
@@ -201,21 +202,21 @@ h1 {
     background-color: var(--background-color);
     width: 100%;
     height: 252px;
-    display: block;
+    display: flex;
+    margin-top: 0;
 }
 
 #address {
     font-family: var(--Roboto);
     color: var(--primary-address-color);
     line-height: 1.17;
-    display: block;
+    display: flex;
     margin-top: 20px;
     margin-left: 15px;
 }
 
 #address .footer-contacts {
     color: var(--secondary-address-color);
-    display: block;
 }
 
 #address .footer-contacts:hover {
@@ -300,4 +301,12 @@ h3 {
 
 .footer-style .logo {
     margin-left: 15px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    display: flex;
+}
+
+#address a {
+    display: flex;
+    margin-left: 0;
 }
