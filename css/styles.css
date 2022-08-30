@@ -286,6 +286,10 @@ h3 {
     line-height: 2;
 }
 
+/* .content-type img {
+    margin-bottom: 0 auto;
+} */
+
 .content-type ul{
     display: flex;
     flex-direction: row;
@@ -293,6 +297,12 @@ h3 {
     gap: 30px;
     margin-bottom: 94px;
     flex-basis: calc((100% - 370px) / 3);
+}
+
+.content-type h3 {
+    padding-left: 24px;
+    margin-top: 20px;
+    margin-bottom: 4px;
 }
 
 .content-type p {
@@ -359,5 +369,9 @@ h3 {
     padding-top: -22px;
     padding-top: 94px;
     margin-bottom: 34px;
-    border: var(--button-background-color);
+}
+
+.card-border {
+    border: 2px solid var(--button-background-color);
+    margin-top: -5px;
 }
