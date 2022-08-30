@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css">
         <link rel="stylesheet" href="./css/styles.css" />
         <link rel="Agencja" href="./index.html" />
 
@@ -16,27 +17,32 @@
         />
     </head>
     <body>
-        <header>
+
+        <header class="header-positioning">
+            <div class="container-nav">
             <a class="logo" href="./index.html"><span>Web</span>Studio</a>
             <nav class="navigation">
-                <ul class="markers">
+                <ul class="nav-position">
                     <li class="markers-none"><a href="./index.html">Agencja</a></li>
                     <li class="markers-none">
                         <a class="current-link" href="./portfolio.html"
-                            >Portfolio</a
-                        >
+                            >Portfolio</a>
                     </li>
                     <li class="markers-none"><a href="#">Kontakt</a></li>
                 </ul>
             </nav>
+            <div class="nav-contact">
             <a class="contacts" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
             >
             <a class="contacts" href="tel:+48111111111">+48111111111</a>
+            </div>    
+            </div>
         </header>
+
         <main>
             <section>
-                <ul class="markers">
+                <ul>
                     <li class="markers-none">
                         <h4>
                             <button class="button" type="button">
@@ -72,7 +78,7 @@
             </section>
 
             <section class="content-type">
-                <ul class="markers">
+                <ul>
                     <li class="markers-none">
                         <img
                             src="./images/img5.jpg"
@@ -167,12 +173,14 @@
             </section>
         </main>
         <footer class="footer-style">
-            <a class="logo" href="./index.html"><span>Web</span>Studio</a>
-            <address class="address">
+            <div class="container">
+            <a class="footer-logo" href="./index.html"><span>Web</span>Studio</a>
+            <address id="address">
                 <p>m. Warszawa, Aleje Jerozolimskie 21</p>
-                <a class="footer-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="footer-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a><br>
                 <a class="footer-contacts" href="tel:+48111111111">+48111111111</a>
             </address>
+            </div>
         </footer>
     </body>
 </html>
