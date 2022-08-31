@@ -293,6 +293,8 @@ h3 {
     gap: 30px;
     margin-bottom: 94px;
     flex-basis: calc((100% - 370px) / 3);
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .content-type h3 {
