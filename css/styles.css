@@ -57,7 +57,6 @@ span {
 .navigation .nav-position {
     display: flex;
     gap: 49px;
-    margin-right: 371px;
     padding-top: 32px;
 }
 
@@ -94,9 +93,10 @@ ul {
 
 .nav-contact {
     display: flex;
+    position: absolute;
+    margin-left: 878px;
     padding-top: 32px;
     gap: 50px;
-    padding-right: 27px;
 }
 
 .contacts {
@@ -157,8 +157,6 @@ h1 {
     border-color: var(--brand-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
         0px 2px 2px rgba(0, 0, 0, 0.12);
-    shadow-middle: rgba(0, 0, 0, 0.12);
-
 }
 
 .button:focus {
@@ -288,7 +286,7 @@ h3 {
     line-height: 2;
 }
 
-.content-type ul{
+.content-type ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -310,7 +308,6 @@ h3 {
     line-height: 1.875;
     padding-left: 24px;
 }
-
 
 .workers-boxes {
     background-color: var(--primary-address-color);
@@ -359,7 +356,6 @@ h3 {
     padding: 6px 22px 6px 22px;
     border-radius: 4px;
     border-style: none;
-
 }
 
 .button-positioner {
