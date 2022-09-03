@@ -108,8 +108,11 @@ ul {
     text-decoration: none;
 }
 
-.contacts:hover {
+.contacts:hover,
+.mail-icon:hover,
+.smartphone-icon:hover {
     color: var(--brand-color);
+    fill: var(--brand-color);
 }
 
 .contacts:focus {
@@ -375,12 +378,16 @@ h3 {
 
 .mail-icon {
     fill: var(--text-decoration-color);
-}
-
-.header-icons {
-    margin-right: 10px;
+    align-items: center;
+    display: flex;
 }
 
 .smartphone-icon {
     fill: var(--text-decoration-color);
+    align-items: center;
+    display: flex;
+}
+
+.header-icons {
+    margin-right: 10px;
 }
