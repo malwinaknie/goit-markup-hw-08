@@ -19,6 +19,7 @@ body {
     --Roboto: "Roboto", sans-serif;
     --Raleway: "Raleway", sans-serif;
     --Img-Overlay: rgba(47, 48, 58, 0.4);
+    --Icon-Color: #AFB1B8;
 }
 
 .container-nav {
@@ -413,4 +414,38 @@ h3 {
 
 .lorem-vectors {
     display: block;
+}
+
+.circle {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    margin-left: 32px;
+    margin-bottom: 30px;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-icons {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--primary-address-color);
+    fill: var(--Icon-Color);  
+}
+
+.social-icons:hover {
+    background-color: var(--brand-color);
+    fill: var(--primary-address-color);  
+    transition: 0.3s;
+}
+
+.our-clients-section {
+    margin-top: 96px;
+    margin-bottom: 50px;
+}
+
+.clients-container {
+    
 }
