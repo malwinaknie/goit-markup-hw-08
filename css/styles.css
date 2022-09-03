@@ -372,3 +372,15 @@ h3 {
     border: 2px solid var(--button-background-color);
     margin-top: -5px;
 }
+
+.mail-icon {
+    fill: var(--text-decoration-color);
+}
+
+.header-icons {
+    margin-right: 10px;
+}
+
+.smartphone-icon {
+    fill: var(--text-decoration-color);
+}
