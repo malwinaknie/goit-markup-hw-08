@@ -18,6 +18,7 @@ body {
     --secondary-address-color: hsla(0, 0%, 100%, 0.6);
     --Roboto: "Roboto", sans-serif;
     --Raleway: "Raleway", sans-serif;
+    --Img-Overlay: rgba(47, 48, 58, 0.4);
 }
 
 .container-nav {
@@ -115,13 +116,20 @@ ul {
     fill: var(--brand-color);
 }
 
-.contacts:focus {
+.contacts:focus,
+.mail-icon:focus,
+.smartphone-icon:focus  {
     color: var(--brand-color);
+    fill: var(--brand-color);
 }
 
 .title-background {
-    background-color: var(--background-color);
-    height: 600px;
+    background-image: linear-gradient(
+        var(--Img-Overlay),
+        var(--Img-Overlay)
+      ),
+      url(/images/background-img.jpg);
+      height: 600px;
     margin-top: 0 auto;
     gap: 30px;
 }
