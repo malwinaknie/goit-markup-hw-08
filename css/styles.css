@@ -82,14 +82,17 @@ ul {
 
 .navigation :hover {
     color: var(--brand-color);
+    transition: 0.3s;
 }
 
 .navigation :focus {
     color: var(--brand-color);
+    transition: 0.3s;
 }
 
 .navigation :active {
     color: var(--brand-color);
+    transition: 0.3s;
 }
 
 .nav-contact {
@@ -114,23 +117,27 @@ ul {
 .smartphone-icon:hover {
     color: var(--brand-color);
     fill: var(--brand-color);
+    transition: 0.3s;
 }
 
 .contacts:focus,
 .mail-icon:focus,
-.smartphone-icon:focus  {
+.smartphone-icon:focus {
     color: var(--brand-color);
     fill: var(--brand-color);
+    transition: 0.3s;
 }
 
 .title-background {
-    background-image: linear-gradient(
-        var(--Img-Overlay),
-        var(--Img-Overlay)
-      ),
-      url(/images/background-img.jpg);
-      height: 600px;
-    margin-top: 0 auto;
+    background-image: linear-gradient(var(--Img-Overlay), 
+    var(--Img-Overlay)),
+    url(/images/background-img.jpg);
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
+    height: 600px;
+    margin-top: 0;
     gap: 30px;
 }
 
@@ -168,6 +175,7 @@ h1 {
     border-color: var(--brand-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
         0px 2px 2px rgba(0, 0, 0, 0.12);
+        transition: 0.3s;
 }
 
 .button:focus {
@@ -176,6 +184,7 @@ h1 {
     border-color: var(--brand-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
         0px 2px 2px rgba(0, 0, 0, 0.12);
+        transition: 0.3s;
 }
 
 .section-gray {
@@ -261,6 +270,8 @@ h3 {
     font-size: 14px;
     line-height: 1.17;
     color: var(--text-color);
+    margin-top: 30px;
+
 }
 
 .text-container p {
@@ -398,4 +409,8 @@ h3 {
 
 .header-icons {
     margin-right: 10px;
+}
+
+.lorem-vectors {
+    display: block;
 }
