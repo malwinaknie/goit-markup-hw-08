@@ -339,6 +339,12 @@ h3 {
     padding-left: 24px;
 }
 
+.project-box:hover {
+    box-shadow: 1px 4px 6px 0px #00000029, 0px 4px 4px 0px #0000000f,
+        0px 1px 1px 0px #0000001f;
+    transition: 0.3s;
+}
+
 .workers-boxes {
     background-color: var(--primary-address-color);
     margin-bottom: 94px;
