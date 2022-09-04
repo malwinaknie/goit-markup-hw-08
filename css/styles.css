@@ -457,7 +457,6 @@ h3 {
     align-items: center;
     align-content: center;
     gap: 30px;
-
 }
 
 .clients {
@@ -468,7 +467,6 @@ h3 {
     width: 170px;
     height: 92px;
     cursor: pointer;
-    
 }
 
 .client-box {
