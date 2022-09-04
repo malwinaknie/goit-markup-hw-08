@@ -443,9 +443,24 @@ h3 {
 
 .our-clients-section {
     margin-top: 96px;
-    margin-bottom: 50px;
+
 }
 
-.clients-container {
+.clients-container { 
+    display: flex;
+    gap: 30px;
+    margin-bottom: 92px;
+    align-items: center;
+}
+
+.clients {
+    fill: var(--Icon-Color);
+    background-color: var(--primary-address-color);
+    border: 1px solid var(--Icon-Color); 
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    align-items: center;
+    align-content: center;    
     
 }
