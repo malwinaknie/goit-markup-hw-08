@@ -20,7 +20,7 @@ body {
     --Raleway: "Raleway", sans-serif;
     --Img-Overlay: rgba(47, 48, 58, 0.4);
     --Icon-Color: #afb1b8;
-    --footer-icon-background: rgba(0, 0, 0, 0.1);
+    --footer-icon-background: rgba(255, 255, 255, 0.1);
 }
 
 .container-nav {
@@ -455,6 +455,9 @@ h3 {
     display: flex;
     margin-bottom: 92px;
     align-items: center;
+    align-content: center;
+    gap: 30px;
+
 }
 
 .clients {
@@ -464,8 +467,8 @@ h3 {
     border-radius: 4px;
     width: 170px;
     height: 92px;
-    align-items: center;
-    align-content: center;
+    cursor: pointer;
+    
 }
 
 .client-box {
@@ -500,5 +503,5 @@ h3 {
     height: 44px;
     border-radius: 50%;
     background-color: var(--footer-icon-background);
-    fill: var(--Icon-Color);
+    fill: var(--primary-address-color);
 }
