@@ -130,9 +130,7 @@ ul {
 }
 
 .title-background {
-    /* background-image: url("/images/img10.jpg"); */
     background-image: url("../images/background-img.jpg");
-    background-color: var(--background-color);
     margin-left: auto;
     margin-right: auto;
     max-width: 1600px;
