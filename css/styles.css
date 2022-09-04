@@ -20,9 +20,16 @@ body {
     --Raleway: "Raleway", sans-serif;
     --Img-Overlay: rgba(47, 48, 58, 0.4);
     --Icon-Color: #afb1b8;
+    --footer-icon-background: rgba(0, 0, 0, 0.1);
 }
 
 .container-nav {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container-footer {
     display: flex;
     width: 1200px;
     margin: 0 auto;
@@ -130,11 +137,8 @@ ul {
 }
 
 .title-background {
-    background-image: linear-gradient(
-        var(--Img-Overlay),
-        var(--Img-Overlay)
-    ),
-    url("../images/background-img.jpg");
+    background-image: linear-gradient(var(--Img-Overlay), var(--Img-Overlay)),
+        url("../images/background-img.jpg");
     margin-left: auto;
     margin-right: auto;
     max-width: 1600px;
@@ -436,7 +440,8 @@ h3 {
     fill: var(--Icon-Color);
 }
 
-.social-icons:hover {
+.social-icons:hover,
+.icons-footer:hover {
     background-color: var(--brand-color);
     fill: var(--primary-address-color);
     transition: 0.3s;
@@ -472,4 +477,28 @@ h3 {
     fill: var(--brand-color);
     border: 1px solid var(--brand-color);
     transition: 0.5s;
+}
+
+.join-us-container {
+    font-family: var(--Roboto);
+    color: var(--primary-address-color);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.circle-footer {
+    display: flex;
+    gap: 10px;
+}
+
+.icons-footer {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--footer-icon-background);
+    fill: var(--Icon-Color);
 }
