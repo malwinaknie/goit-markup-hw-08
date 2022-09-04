@@ -131,7 +131,7 @@ ul {
 
 .title-background {
     background-image: linear-gradient(var(--Img-Overlay), var(--Img-Overlay)),
-        url(/images/background-img.jpg);
+        url("/images/background-img.jpg");
     background-repeat: no-repeat;
     margin-left: auto;
     margin-right: auto;
