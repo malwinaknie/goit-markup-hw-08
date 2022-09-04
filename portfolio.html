@@ -17,13 +17,14 @@
         />
     </head>
     <body>
-
         <header class="header-positioning">
             <div class="container-nav">
             <a class="logo" href="./index.html"><span>Web</span>Studio</a>
+
             <nav class="navigation">
                 <ul class="nav-position">
-                    <li class="markers-none"><a href="./index.html">Agencja</a></li>
+                    <li class="markers-none">
+                        <a href="./index.html">Agencja</a></li>
                     <li class="markers-none">
                         <a class="current-link" href="./portfolio.html"
                             >Portfolio</a>
@@ -31,12 +32,22 @@
                     <li class="markers-none"><a href="#">Kontakt</a></li>
                 </ul>
             </nav>
+
             <div class="nav-contact">
-            <a class="contacts" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-            >
-            <a class="contacts" href="tel:+48111111111">+48111111111</a>
-            </div>    
+            <a class="contacts mail-icon" href="mailto:info@devstudio.com">
+                <svg class="header-icons" width="16px" height="12px">
+                    <use href="./images/icons.svg#icon-mail">
+                        <symbol id="icon-mail" viewBox="0 0 43 32"></symbol>
+                    </use>
+                </svg>
+                info@devstudio.com</a>
+            <a class="contacts smartphone-icon" href="tel:+48111111111">
+                <svg class="header-icons" width="10px" height="16px">
+                    <use href="./images/icons.svg#icon-smartphone">
+                        <symbol id="icon-smartphone" viewBox="0 0 20 32"></symbol>
+                    </use>
+                </svg>
+                +48111111111</a>    
             </div>
         </header>
 
@@ -193,7 +204,8 @@
             </section>
         </main>
         <footer class="footer-style">
-            <div class="container">
+            <div class="container-footer">
+                <div>
             <a class="footer-logo" href="./index.html"><span>Web</span>Studio</a>
             <address id="address">
                 <p>m. Warszawa, Aleje Jerozolimskie 21</p>
@@ -201,6 +213,34 @@
                 <a class="footer-contacts" href="tel:+48111111111">+48111111111</a>
             </address>
             </div>
+
+            <div class="join-us-container">
+                <p>Dołącz do nas</p>
+                <div class="circle-footer">
+                    <a class="icons-footer" href="#">
+                <svg class="icons-footer">
+                    <use href="./images/icons.svg#icon-instagram" width="20" height="20" x="12" y="12"></use>
+                  </svg>
+                </a>
+                <a class="icons-footer" href="#">
+                    <svg class="icons-footer">
+                        <use href="./images/icons.svg#icon-twitter" width="20" height="20" x="12" y="12"></use>
+                      </svg>
+                    </a>
+                    <a class="icons-footer" href="#">
+                        <svg class="icons-footer">
+                            <use href="./images/icons.svg#icon-facebook" width="20" height="20" x="12" y="12"></use>
+                          </svg>
+                        </a>
+                        <a class="icons-footer" href="#">
+                            <svg class="icons-footer">
+                                <use href="./images/icons.svg#icon-linkedin" width="20" height="20" x="12" y="12"></use>
+                              </svg>
+                            </a>
+                </div>
+            </div>
+
+        </div>
         </footer>
     </body>
 </html>
