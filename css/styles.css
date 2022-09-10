@@ -26,6 +26,7 @@ body {
 .container-nav {
     display: flex;
     width: 1200px;
+    height: 80px;
     margin: 0 auto;
 }
 
@@ -86,6 +87,18 @@ ul {
 
 .navigation .current-link {
     color: var(--brand-color);
+}
+
+.current-link::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 53px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--brand-color);
+    top: 76px;
+    cursor: default;
 }
 
 .navigation :hover {
