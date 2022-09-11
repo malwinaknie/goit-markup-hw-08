@@ -587,3 +587,54 @@ overflow: hidden;
     margin: 0;
     position: relative;
 }
+
+.modal-circle {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+
+.modal-button {
+    fill: #000000;
+}
+
+.modal-container {
+    display: flex;
+   position: fixed;
+   background-color: rgba(0, 0, 0, 0.2);
+   top: 0;
+   left: 0;
+   height: 100vh;
+   width: 100vw;
+   align-items: center;
+   justify-content: center;
+   transition: opacity 0.3s ease;
+
+}
+
+.modal {
+    background-color: var(--primary-address-color);
+    width: 528px;
+    height: 581px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.12);
+}
+
+.close-btn {
+    margin-left: 490px;
+    margin-top: 8px;
+    width: 30px;
+    height: 30px;
+    background-color: var(--primary-address-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition-property: opacity 0.3s;
+    transition: 0.3s;
+}
