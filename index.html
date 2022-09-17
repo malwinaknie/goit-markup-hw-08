@@ -388,7 +388,7 @@
 
                 <div class="newsletter">
                     <p>Zapisz się do newslettera</p>
-                    <form name="signup_form" autocomplete="on" novalidate>
+                    <form name="newsletter_form" autocomplete="on" novalidate>
                         <label>
                             <input type="email" name="email" placeholder="E-mail"/>
                             <svg>
@@ -407,6 +407,32 @@
             <div class="modal">
                  <button type="button" class="close-btn" data-modal-close>X</button>
             </button>
+            <h2>Zostaw swoje dane w formularzu poniżej</h2>
+
+            <form name="signup-form" autocomplete="on" novalidate>
+                <label>
+                    Imię
+                    <input type="name" name="name"/>
+                </label>
+
+                <label>
+                    Telefon
+                    <input type="telephone" name="telephone"/>
+                </label>
+
+                <label>
+                    E-mail
+                        <input type="e-mail" name="e-mail"/>
+                </label>
+
+                <label>
+                    Komentarz
+                    <textarea name="comment" id="text-form" placeholder="Wprowadź tekst"></textarea>
+                </label>
+
+                <p>Oświadczam iż akceptuję Regulamin i Politykę Prywatności</p>
+                <button type="submit">Wyślij</button>
+            </form>
             </div>
         </div>
 
