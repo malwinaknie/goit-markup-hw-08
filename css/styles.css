@@ -737,6 +737,7 @@ h3 {
 }
 
 #text-form {
+    font-family: var(--Roboto);
     width: 448px;
     height: 120px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -746,6 +747,10 @@ h3 {
     padding-top: 12px;
     padding-left: 16px;
     color: rgba(117, 117, 117, 0.5);
+}
+
+.modal input {
+    padding-left: 35px;
 }
 
 .modal input:hover,
@@ -762,6 +767,12 @@ h3 {
     fill: rgba(33, 33, 33, 1);
 }
 
-.form-icons svg:hover {
+input:hover + svg,
+input:focus + svg {
     fill: var(--brand-color);
-}
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
+ 
+ .modal a {
+    color: var(--brand-color);
+ }
