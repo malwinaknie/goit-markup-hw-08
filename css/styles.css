@@ -776,19 +776,23 @@ h3 {
     flex-direction: column;
 }
 
+
 .modal-form-policy-text::before {
     position: absolute;
-    display: flex;
+    display: block;
     margin-left: -22px;
     content: "";
     width: 16px;
     height: 16px;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 2px;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    
 }
 
 .modal-form-policy-text {
+    font-family: var(--Roboto);
+    color: #757575;
     margin-top: 20px;
     padding-left: 40px;
     font-size: 14px;
@@ -798,7 +802,7 @@ h3 {
     background-color: var(--brand-color);
     border: 3px solid var(--brand-color);
     background-image: url("../images/Vector.svg");
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .visually-hidden {
@@ -817,8 +821,10 @@ h3 {
     font-weight: 700;
     font-size: 16px;
     line-height: 1,87;
+    width: 200px;
+    height: 50px;
     margin-top: 30px;
-    margin-left: 170px;
+    margin-left: 164px;
     padding: 10px 76px;
     border: none;
     border-radius: 4px;
