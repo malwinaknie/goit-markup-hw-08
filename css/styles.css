@@ -634,6 +634,13 @@ h3 {
     cursor: pointer;
 }
 
+.close-btn:hover,
+.close-btn:focus {
+    color: var(--primary-address-color);
+    background-color: var(--text-decoration-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .is-hidden {
     opacity: 0;
     visibility: hidden;
@@ -695,7 +702,6 @@ h3 {
     color: rgba(255, 255, 255, 1);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 .newsletter-form:hover,
 .newsletter-form:focus {
@@ -776,7 +782,6 @@ h3 {
     flex-direction: column;
 }
 
-
 .modal-form-policy-text::before {
     position: absolute;
     display: block;
@@ -786,8 +791,6 @@ h3 {
     height: 16px;
     border: 2px solid black;
     border-radius: 2px;
-    
-    
 }
 
 .modal-form-policy-text {
@@ -802,7 +805,6 @@ h3 {
     background-color: var(--brand-color);
     border: 3px solid var(--brand-color);
     background-image: url("../images/Vector.svg");
-    
 }
 
 .visually-hidden {
@@ -820,7 +822,7 @@ h3 {
     font-family: var(--Roboto);
     font-weight: 700;
     font-size: 16px;
-    line-height: 1,87;
+    line-height: 1, 87;
     width: 200px;
     height: 50px;
     margin-top: 30px;
@@ -844,4 +846,10 @@ h3 {
 
 .modal-form-policy-text a {
     color: var(--brand-color);
+}
+
+.modal-form-policy-text a:hover,
+.modal-form-policy-text a:focus {
+    color: #0e395b;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
