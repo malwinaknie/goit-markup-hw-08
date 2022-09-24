@@ -36,6 +36,19 @@ li a {
 
 .header__nav--current {
     color: $brand-color;
+
+    &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 53px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: $brand-color;
+    top: 76px;
+    cursor: default;
+
+    }
 }
 
 .header__contact {
