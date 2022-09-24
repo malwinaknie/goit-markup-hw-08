@@ -1,0 +1,100 @@
+.header-positioning {
+    display: flex;
+    height: 80px;
+    border-bottom: 1px solid #ececec;
+}
+
+.navigation .nav-position {
+    display: flex;
+    gap: 49px;
+    padding-top: 32px;
+}
+
+.navigation a {
+    font-family: var(--Roboto);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    color: var(--text-color);
+}
+
+.navigation .current-link {
+    color: var(--brand-color);
+}
+
+.current-link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 53px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--brand-color);
+    top: 76px;
+    cursor: default;
+}
+
+.navigation :hover {
+    color: var(--brand-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navigation :focus {
+    color: var(--brand-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navigation :active {
+    color: var(--brand-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-contact {
+    display: flex;
+    position: absolute;
+    margin-left: 878px;
+    padding-top: 32px;
+    gap: 50px;
+}
+
+.contacts {
+    font-family: var(--Roboto);
+    color: var(--text-decoration-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    text-decoration: none;
+}
+
+.contacts:hover,
+.mail-icon:hover,
+.smartphone-icon:hover {
+    color: var(--brand-color);
+    fill: var(--brand-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts:focus,
+.mail-icon:focus,
+.smartphone-icon:focus {
+    color: var(--brand-color);
+    fill: var(--brand-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mail-icon {
+    fill: var(--text-decoration-color);
+    align-items: center;
+    display: flex;
+}
+
+.smartphone-icon {
+    fill: var(--text-decoration-color);
+    align-items: center;
+    display: flex;
+}
+
+.header-icons {
+    margin-right: 10px;
+}

@@ -1,0 +1,22 @@
+
+.section-what-we-do-signature {
+    display: flex;
+    background-color: rgba(47, 48, 58, 0.8);
+    color: var(--primary-address-color);
+    font-family: var(--Roboto);
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    position: relative;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    width: auto;
+    justify-content: center;
+    bottom: 73px;
+}
+
+.section-what-we-do-signature p {
+    margin: 0;
+    position: relative;
+}
