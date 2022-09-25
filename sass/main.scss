@@ -3,13 +3,13 @@
 
 @import "./base/common";
 @import "./base/container";
-@import "./base/section";
 
 @import "./components/modal-btn";
 @import "./components/buttons";
 @import "./components/logo";
 @import "./components/backdrop";
 @import "./components/modal";
+@import "./components/socials";
 
 @import "./layout/header";
 @import "./layout/footer";
@@ -17,7 +17,6 @@
 @import "./layout/main-section";
 @import "./layout/our-team";
 @import "./layout/projects";
-@import "./layout/socials";
 @import "./layout/what-we-do";
 @import "./layout/workers-section";
 @import "./layout/our-advantages";

@@ -1,4 +1,4 @@
-.circle {
+.__circle {
     width: 44px;
     height: 44px;
     display: flex;
@@ -13,8 +13,8 @@
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color: var(--primary-address-color);
-    fill: var(--Icon-Color);
+    background-color: $primary-address-color;
+    fill: $Icon-Color;
 }
 
 .social-icons:hover,

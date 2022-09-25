@@ -335,6 +335,38 @@ h2 {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.__circle {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  margin-left: 32px;
+  margin-bottom: 30px;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-icons {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  fill: #afb1b8;
+}
+
+.social-icons:hover,
+.icons-footer:hover,
+.social-icons:focus svg,
+.icons-footer:focus svg {
+  background-color: var(--brand-color);
+  fill: var(--primary-address-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icons a:focus {
+  background-color: var(--brand-color);
+}
+
 .header {
   display: flex;
   height: 80px;
@@ -584,7 +616,7 @@ li a:hover, li a:focus {
 .our-team--gray-section {
   background-color: #f5f4fa;
   margin-top: 94px;
-  padding-top: 94px;
+  padding-top: 64px;
 }
 
 .our-team ul {
@@ -596,7 +628,7 @@ li a:hover, li a:focus {
 .our-team ul li {
   background-color: #ffffff;
   margin-bottom: 94px;
-  border-radius: 4px;
+  border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -610,6 +642,7 @@ li a:hover, li a:focus {
   font-size: 16px;
   color: #757575;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .content-name {
@@ -686,38 +719,6 @@ li a:hover, li a:focus {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.1607843137), 0px 4px 4px 0px rgba(0, 0, 0, 0.0588235294), 0px 1px 1px 0px rgba(0, 0, 0, 0.1215686275);
 }
 
-.circle {
-  width: 44px;
-  height: 44px;
-  display: flex;
-  margin-left: 32px;
-  margin-bottom: 30px;
-  align-items: center;
-  gap: 10px;
-}
-
-.social-icons {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-color: var(--primary-address-color);
-  fill: var(--Icon-Color);
-}
-
-.social-icons:hover,
-.icons-footer:hover,
-.social-icons:focus svg,
-.icons-footer:focus svg {
-  background-color: var(--brand-color);
-  fill: var(--primary-address-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-icons a:focus {
-  background-color: var(--brand-color);
-}
-
 .what-we-do ul {
   display: flex;
   gap: 30px;
@@ -737,29 +738,6 @@ li a:hover, li a:focus {
   justify-content: center;
   align-items: center;
   bottom: 73px;
-}
-
-.workers-boxes {
-  background-color: var(--primary-address-color);
-  margin-bottom: 94px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-
-.workers-boxes:nth-child(1) {
-  margin-left: 15px;
-}
-
-.workers-boxes:nth-child(2) {
-  margin-left: 23px;
-}
-
-.workers-boxes:nth-child(3) {
-  margin-left: 37px;
-}
-
-.workers-boxes:nth-child(4) {
-  margin-left: 30px;
 }
 
 .our-advantages ul {
