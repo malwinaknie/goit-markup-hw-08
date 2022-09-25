@@ -497,6 +497,7 @@ footer {
 }
 
 .our-clients__client {
+  display: flex;
   fill: #afb1b8;
   border-radius: 4px;
   width: 170px;
