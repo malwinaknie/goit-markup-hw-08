@@ -12,14 +12,15 @@
     }
 }
 
-.footer-logo {
+.footer__logo {
+    margin-top: 24px;
     text-decoration: none;
-    font-family: var(--Raleway);
+    font-family: $Raleway;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.17;
-    color: var(--primary-address-color);
-    margin-left: 15px;
-    margin-bottom: 20px;
-    margin-top: 60px;
+    color: $brand-color;
+
+    & span {
+        color: rgba(255, 255, 255, 1);
+    }
 }
