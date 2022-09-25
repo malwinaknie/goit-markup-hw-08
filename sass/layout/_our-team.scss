@@ -1,13 +1,31 @@
-.our-team-section {
-    font-family: var(--Roboto);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    width: 209px;
-    padding-top: 94px;
-    padding-bottom: 50px;
+.our-team--gray-section {
+    background-color: $gray-section-color; 
+    margin-top: 94px;
+    padding-top: 94px; 
 }
 
-.our-team-boxes ul {
+.our-team ul {
+    padding-left: 15px;
+    padding-right: 15px;
     display: flex;
+    gap: 30px;
+
+& li {
+    background-color: $primary-address-color;
+    margin-bottom: 94px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+}
+
+.our-team__worker-name {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.our-team__signature {
+    font-size: 16px;
+    color: $text-decoration-color;
+    text-align: center;
 }
