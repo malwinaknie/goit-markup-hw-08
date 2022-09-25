@@ -358,12 +358,14 @@ h2 {
 .icons-footer:hover,
 .social-icons:focus svg,
 .icons-footer:focus svg {
-  background-color: var(--brand-color);
-  fill: var(--primary-address-color);
+  background-color: #2196f3;
+  fill: #ffffff;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.social-icons a:focus {
+.social-icons:hover .social-icons a:focus,
+.icons-footer:hover .social-icons a:focus,
+.social-icons:focus svg .social-icons a:focus,
+.icons-footer:focus svg .social-icons a:focus {
   background-color: var(--brand-color);
 }
 

@@ -21,11 +21,11 @@
 .icons-footer:hover,
 .social-icons:focus svg,
 .icons-footer:focus svg {
-    background-color: var(--brand-color);
-    fill: var(--primary-address-color);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+    background-color: $brand-color;
+    fill: $primary-address-color;
+    transition: $transition;
 
-.social-icons a:focus {
-    background-color: var(--brand-color);
+    & .social-icons a:focus {
+        background-color: var(--brand-color);
+    }   
 }
