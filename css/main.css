@@ -369,14 +369,14 @@ h2 {
   background-color: var(--brand-color);
 }
 
-.footer__circle {
+.footer__socials-container {
   width: 44px;
   height: 44px;
   display: flex;
   gap: 10px;
   fill: #ffffff;
 }
-.footer__circle .footer__icon {
+.footer__socials-container .footer__icon {
   display: flex;
   width: 44px;
   height: 44px;
@@ -483,11 +483,18 @@ footer {
   padding: 55.5px 0;
   font-family: "Roboto", sans-serif;
 }
+footer p {
+  font-size: 14px;
+  margin-top: 7px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
 
 .footer__address {
   margin-left: 15px;
 }
-
 .footer__address p {
   margin: 0;
   margin-top: 20px;
@@ -516,14 +523,45 @@ footer {
 
 .footer__join-us {
   margin-left: 70px;
+  width: 208px;
 }
-.footer__join-us p {
-  font-size: 14px;
-  margin-top: 7px;
+
+.footer__newsletter {
+  padding-left: 78px;
+  width: 572px;
+}
+
+.newsletter__form {
+  border-radius: 4px;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: var(--background-color);
+  color: rgba(255, 255, 255, 0.3);
+  box-shadow: rgba(0, 0, 0, 0.15);
+  offset: 0px, 4px;
+  padding-left: 16px;
+}
+
+.newsletter__icon {
+  position: absolute;
+  fill: #ffffff;
+  pointer-events: none;
+}
+
+.footer__btn {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.1);
   color: #ffffff;
-  text-transform: uppercase;
+  border-radius: 4px;
+  border-style: none;
+  margin-left: 12px;
   font-weight: 700;
-  margin-bottom: 20px;
+  text-align: left;
+  padding-left: 42px;
+  cursor: pointer;
 }
 
 .our-clients {
