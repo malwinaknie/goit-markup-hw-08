@@ -95,10 +95,6 @@ h2 {
   margin: 0 auto;
 }
 
-.modal {
-  font-family: "Roboto", sans-serif;
-}
-
 .modal__close-btn {
   margin-left: 490px;
   margin-top: 8px;
@@ -218,7 +214,7 @@ h2 {
   width: 100vw;
   align-items: center;
   justify-content: center;
-  transition: opacity 0.3s ease;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
@@ -263,24 +259,26 @@ h2 {
   border: 1px solid rgba(33, 33, 33, 0.2);
   padding-left: 35px;
 }
+.modal input:hover,
+.modal input :focus {
+  border: 1px solid #2196f3;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-#text-form {
-  font-family: var(--Roboto);
+#modal__text-form {
   width: 448px;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   resize: none;
   margin-top: 4px;
+  margin-bottom: 13px;
   padding-top: 12px;
   padding-left: 16px;
   color: rgba(117, 117, 117, 0.5);
 }
-
-.modal input:hover,
-#text-form:hover,
-.modal input:focus,
-#text-form:focus {
+#modal__text-form:hover,
+#modal__text-form :focus {
   border: 1px solid #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -297,10 +295,9 @@ h2 {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-policy-text::before {
+.modal__form-policy-text::before {
   position: absolute;
-  display: block;
-  margin-left: -22px;
+  margin-left: -25px;
   content: "";
   width: 16px;
   height: 16px;
@@ -308,26 +305,23 @@ h2 {
   border-radius: 2px;
 }
 
-.modal-form-policy-text {
-  font-family: var(--Roboto);
+.modal__form-policy-text {
   color: #757575;
-  margin-top: 20px;
   padding-left: 40px;
   font-size: 14px;
 }
-
-.modal-form-policy:checked + .modal-form-policy-text::before {
-  background-color: var(--brand-color);
-  border: 3px solid var(--brand-color);
-  background-image: url("../images/Vector.svg");
+.modal__form-policy-text a {
+  color: #2196f3;
 }
 
-.modal-form-policy-text a {
-  color: var(--brand-color);
+.modal__form-policy:checked + .modal__form-policy-text::before {
+  background-color: #2196f3;
+  border: 3px solid #2196f3;
+  background-image: url("/images/Vector.svg");
 }
 
-.modal-form-policy-text a:hover,
-.modal-form-policy-text a:focus {
+.modal__form-policy-text a:hover,
+.modal__form-policy-text a:focus {
   color: #0e395b;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
