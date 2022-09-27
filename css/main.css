@@ -207,7 +207,7 @@ h2 {
   color: rgb(255, 255, 255);
 }
 
-.modal-container {
+.modal__backdrop {
   display: flex;
   position: fixed;
   background-color: rgba(0, 0, 0, 0.2);
@@ -221,7 +221,7 @@ h2 {
 }
 
 .modal {
-  background-color: var(--primary-address-color);
+  background-color: #ffffff;
   width: 528px;
   height: 581px;
   border-radius: 4px;

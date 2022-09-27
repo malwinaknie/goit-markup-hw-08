@@ -388,36 +388,18 @@
                 </div>
                 </div>
         </footer>
-<!-- <div class="newsletter">
-                    <p>Zapisz się do newslettera</p>
-                    <form name="newsletter_form" autocomplete="on" novalidate>
-                        <label>
-                            <input class="newsletter-form" type="email" name="email" placeholder="E-mail"/>
-                            <svg class="newsletter-icon">
-                                <use href="./images/icons.svg#icon-send" width="24" height="24" x="148" y="13"></use>
-                            </svg>
-                        </label>
-                        <button type="submit">Zapisz się</button>
-                
-                    </form>
-                </div>
-
-            </div>
-        </footer> -->
-
-        <div class="modal-container is-hidden" data-modal>
+        
+        <div class="modal__backdrop is-hidden" data-modal>
             <div class="modal">
-                 <button type="button" class="close-btn" data-modal-close>X</button>
+                 <button type="button" class="modal__close-btn" data-modal-close>X</button>
             </button>
             <h2>Zostaw swoje dane w formularzu poniżej</h2>
 
-            <form name="signup-form" autocomplete="on" novalidate id="signup-form">
-                
+            <form name="signup-form" autocomplete="on" novalidate id="signup-form">  
                 <label>
                     Imię
                     <input type="name" name="name" value=""/>
-                    <svg class="form-icons">
-                    
+                    <svg class="modal__form-icons">
                         <use href="./images/icons.svg#icon-character" width="12" height="12" x="14" y="31"></use>
                     </svg>
                 </label>
@@ -445,10 +427,10 @@
             </form>
 
             <form class="modal-form" action="#" method="post">
-                <input class="modal-form-policy visually-hidden" id="user-policy" type="checkbox" name="policy">
-                <label for="user-policy" class="modal-form-policy-text">Oświadczam iż akceptuję <a href="">Regulamin</a> i <a href="">Politykę Prywatności</a>.</label>
+                <input class="modal__form-policy visually-hidden" id="user-policy" type="checkbox" name="policy">
+                <label for="user-policy" class="modal__form-policy-text">Oświadczam iż akceptuję <a href="">Regulamin</a> i <a href="">Politykę Prywatności</a>.</label>
             </form>
-            <button class="btn-send" type="submit">Wyślij</button>
+            <button class="form__btn-send" type="submit">Wyślij</button>
             </div>
         </div>
 
