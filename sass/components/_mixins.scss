@@ -1,0 +1,5 @@
+@mixin transition($color, $transition ){
+    transition: $transition;
+    color: $brand-color;
+    fill: $brand-color;
+}
