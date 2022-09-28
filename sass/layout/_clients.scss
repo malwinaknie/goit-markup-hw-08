@@ -26,12 +26,11 @@
 .our-clients__box:active,
 .our-clients__box:focus {
     border: 1px solid $brand-color;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: $transition;
 }
 
 .our-clients__client:hover,
 .our-clients__client:active,
 .our-clients__client:focus svg {
-    fill: $brand-color;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition($brand-color, $transition)
 }
