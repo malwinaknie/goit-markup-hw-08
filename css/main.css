@@ -323,7 +323,7 @@ a {
 .modal__form-policy:checked + .modal__form-policy-text::before {
   background-color: #2196f3;
   border: 3px solid #2196f3;
-  background-image: url("/images/Vector.svg");
+  background-image: url("../images/Vector.svg");
   fill: #ffffff;
 }
 
