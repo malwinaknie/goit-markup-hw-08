@@ -3,3 +3,8 @@
     color: $brand-color;
     fill: $brand-color;
 }
+
+@mixin button($background-color, $transition){
+    background-color: $brand-color;
+    transition: $transition;
+}

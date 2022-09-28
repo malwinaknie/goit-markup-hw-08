@@ -17,13 +17,11 @@
     }
 
 li a {
-    display: flex;
     color: $text-color;
 
     &:hover,
     &:focus {
-      color: $brand-color;
-      transition: $transition;
+        @include transition($brand-color, $transition)
     }
 }
 
@@ -64,10 +62,10 @@ li a {
 
 .header__contact :hover .header__icons,
 .header__contact :focus .header__icons {
-    @include transition($brand-color, $transition)
+    @include transition($brand-color, $transition);
 }
 
 .header__contact a:hover,
 .header__contact a:focus {
-    @include transition($brand-color, $transition)
+    @include transition($brand-color, $transition);
 }
