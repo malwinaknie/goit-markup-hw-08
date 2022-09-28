@@ -64,7 +64,7 @@ a {
   margin: 0 auto;
 }
 
-.container-footer {
+.footer__container {
   display: flex;
   width: 1200px;
   margin: 0 auto;
@@ -317,6 +317,7 @@ a {
 }
 .modal__form-policy-text a {
   color: #2196f3;
+  text-decoration: underline;
 }
 
 .modal__form-policy:checked + .modal__form-policy-text::before {
@@ -454,7 +455,7 @@ li a:hover, li a:focus {
 
 footer {
   background-color: #2f303a;
-  height: 252px;
+  height: 259px;
   padding: 55.5px 0;
   font-family: "Roboto", sans-serif;
 }
@@ -470,6 +471,7 @@ footer p {
   margin-left: 15px;
 }
 .footer__address p {
+  padding-left: 0;
   margin: 0;
   margin-top: 20px;
   margin-bottom: 9px;
@@ -694,6 +696,12 @@ p {
   align-items: center;
   bottom: 73px;
 }
+.what-we-do__signature p {
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  padding-left: 0;
+}
 
 .our-advantages ul {
   display: flex;
@@ -708,4 +716,5 @@ p {
   font-size: 14px;
   line-height: 1.71;
   color: #757575;
+  padding-left: 0;
 }/*# sourceMappingURL=main.css.map */
