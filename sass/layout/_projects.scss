@@ -1,12 +1,10 @@
-.content-name {
-    font-family: var(--Roboto);
-    color: var(--text-color);
+.portfolio__name {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
 }
 
-.content-type ul {
+.portfolio__grid {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -17,13 +15,13 @@
     margin-left: 15px;
 }
 
-.content-type h3 {
+.portfolio h3 {
     padding-left: 24px;
     margin-top: 20px;
     margin-bottom: 4px;
 }
 
-.content-type p {
+.portfolio p {
     font-family: var(--Roboto);
     color: var(--text-decoration-color);
     font-size: 16px;
@@ -32,19 +30,19 @@
 }
 
 
-.card-border {
+.portfolio__card-border {
     border: 2px solid var(--button-background-color);
     margin-top: -5px;
 }
 
-.overlay-box {
+.portfolio__positioner--overlay {
     position: relative;
     width: 370px;
     height: 294px;
     overflow: hidden;
 }
 
-.overlay {
+.portfolio--animation {
     position: absolute;
     background-color: rgba(33, 150, 243, 0.9);
     top: 170px;
@@ -55,7 +53,7 @@
     transition: transform 250ms;
 }
 
-.overlay p {
+.portfolio--animation p {
     font-family: var(--Roboto);
     font-weight: 400px;
     font-size: 18px;
@@ -65,12 +63,12 @@
     margin: 0;
 }
 
-.project-box:hover .overlay {
+.portfolio__boxes:hover .portfolio--animation {
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(-170px);
 }
 
-.project-box:hover {
+.portfolio__boxes:hover {
     box-shadow: 1px 4px 6px 0px #00000029, 0px 4px 4px 0px #0000000f,
         0px 1px 1px 0px #0000001f;
 }
