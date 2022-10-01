@@ -471,10 +471,10 @@ a {
 }
 .footer p {
   font-size: 14px;
-  margin-top: 7px;
   color: #ffffff;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-top: 7px;
+  margin-bottom: 14px;
   padding-left: 0;
 }
 .footer__address {
