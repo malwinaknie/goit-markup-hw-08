@@ -420,27 +420,25 @@ a {
   font-size: 14px;
   font-weight: 500;
 }
-
 .header__nav {
   display: flex;
+  flex-direction: row;
   margin-top: 32px;
   padding-left: 93px;
   gap: 46px;
 }
-
-li a {
+.header li a {
   color: #212121;
 }
-li a:hover, li a:focus {
+.header li a:hover, .header li a:focus {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #2196f3;
   fill: #2196f3;
 }
-
-.header__nav--current {
+.header .page--current {
   color: #2196f3;
 }
-.header__nav--current::before {
+.header .page--current::before {
   content: "";
   display: block;
   position: absolute;
@@ -451,7 +449,6 @@ li a:hover, li a:focus {
   top: 76px;
   cursor: default;
 }
-
 .header__contact {
   display: flex;
   position: absolute;
@@ -459,7 +456,6 @@ li a:hover, li a:focus {
   margin-left: 878px;
   margin-top: 32px;
 }
-
 .header__contact a {
   display: flex;
   align-items: center;
@@ -469,16 +465,12 @@ li a:hover, li a:focus {
   fill: #757575;
   margin-right: 10px;
 }
-
-.header__contact :hover .header__icons,
-.header__contact :focus .header__icons {
+.header__contact :hover .header__icons, .header__contact :focus .header__icons {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #2196f3;
   fill: #2196f3;
 }
-
-.header__contact a:hover,
-.header__contact a:focus {
+.header__contact a:hover, .header__contact a:focus {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #2196f3;
   fill: #2196f3;

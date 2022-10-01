@@ -7,65 +7,64 @@
     font-size: 500;
     font-size: 14px;
     font-weight: 500;
-}
 
-.header__nav {
+    &__nav {
         display: flex;
+        flex-direction: row;
         margin-top: 32px;
         padding-left: 93px;
         gap: 46px;
     }
 
-li a {
+    li a {
     color: $text-color;
 
-    &:hover,
-    &:focus {
-        @include transition($brand-color, $transition)
-    }
+        &:hover,
+        &:focus {
+            @include transition($brand-color, $transition)
+        }
 }
 
-.header__nav--current {
-    color: $brand-color;
+    & .page--current {
+        color: $brand-color;
 
-    &::before {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 53px;
-    height: 4px;
-    border-radius: 2px;
-    background-color: $brand-color;
-    top: 76px;
-    cursor: default;
-    }
-}
+        &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 53px;
+        height: 4px;
+        border-radius: 2px;
+        background-color: $brand-color;
+        top: 76px;
+        cursor: default;
+        }
+        }
 
-.header__contact {
+    &__contact {
     display: flex;
     position: absolute;
     gap: 50px;
     margin-left: 878px;
     margin-top: 32px;
-}
 
-.header__contact a {
-    display: flex;
-    align-items: center;
-    color: $text-decoration-color;
-
-    & .header__icons {
-        fill: $text-decoration-color;
-        margin-right: 10px;
+    & a {
+        display: flex;
+        align-items: center;
+        color: $text-decoration-color;
+    
+        & .header__icons {
+            fill: $text-decoration-color;
+            margin-right: 10px; 
+    }
+    }
 }
+    &__contact :hover &__icons,
+    &__contact :focus &__icons {
+         @include transition($brand-color, $transition);
 }
-
-.header__contact :hover .header__icons,
-.header__contact :focus .header__icons {
-    @include transition($brand-color, $transition);
-}
-
-.header__contact a:hover,
-.header__contact a:focus {
-    @include transition($brand-color, $transition);
-}
+    &__contact a:hover,
+    &__contact a:focus {
+        @include transition($brand-color, $transition);
+    }
+    }
