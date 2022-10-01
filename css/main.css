@@ -74,7 +74,7 @@ a {
   margin: 0 auto;
 }
 
-.what-we-do__container {
+.offer__container {
   width: 1200px;
   margin: 0 auto;
 }
@@ -696,14 +696,13 @@ p {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.1607843137), 0px 4px 4px 0px rgba(0, 0, 0, 0.0588235294), 0px 1px 1px 0px rgba(0, 0, 0, 0.1215686275);
 }
 
-.what-we-do ul {
+.offer ul {
   display: flex;
   gap: 30px;
   padding-left: 15px;
   padding-right: 15px;
 }
-
-.what-we-do__signature {
+.offer__thumb {
   background-color: rgba(47, 48, 58, 0.8);
   color: #ffffff;
   font-size: 14px;
@@ -716,7 +715,7 @@ p {
   align-items: center;
   bottom: 73px;
 }
-.what-we-do__signature p {
+.offer__thumb p {
   color: #ffffff;
   font-size: 14px;
   text-align: center;
