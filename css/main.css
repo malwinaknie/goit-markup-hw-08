@@ -130,7 +130,8 @@ a {
   margin-bottom: 200px;
   border-radius: 4px;
 }
-.slider__button:hover, .slider__button:focus {
+.slider__button:hover,
+.slider__button :focus {
   color: #ffffff;
   background-color: #2196f3;
   border-color: #2196f3;
