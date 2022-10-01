@@ -1,4 +1,6 @@
-.our-team__circle {
+.social{
+
+    &__circle {
     width: 44px;
     height: 44px;
     display: flex;
@@ -8,7 +10,7 @@
     gap: 10px;
 }
 
-.our-team__social-icons {
+    &__icon {
     display: flex;
     width: 44px;
     height: 44px;
@@ -17,31 +19,32 @@
     fill: $Icon-Color;
 }
 
-.our-team__social-icons:hover,
-.our-team__social-icons:hover,
-.our-team__social-icons:focus svg,
-.our-team__social-icons:focus svg {
+&__icon:hover,
+&__icon:hover,
+&__icon:focus svg,
+&__icon:focus svg {
     background-color: $brand-color;
     fill: $primary-address-color;
     transition: $transition;
 }
 
-.footer__socials-container {
-    width: 44px;
-    height: 44px;
-    display: flex;
-    gap: 10px;
+// .footer__socials-container {
+//     width: 44px;
+//     height: 44px;
+//     display: flex;
+//     gap: 10px;
 
-    .footer__icon {
-        @extend .our-team__social-icons;
-        background-color: $footer-icon-background;
-        fill: $primary-address-color;
-    }
-}
+//     .footer__icon {
+//         @extend __icon;
+//         background-color: $footer-icon-background;
+//         fill: $primary-address-color;
+//     }
+// }
 
-.footer__icon:hover,
-.footer__icon:focus svg {
-    background-color: $brand-color;
-    fill: $primary-address-color;
-    transition: $transition;
+// .footer__icon:hover,
+// .footer__icon:focus svg {
+//     background-color: $brand-color;
+//     fill: $primary-address-color;
+//     transition: $transition;
+// }
 }

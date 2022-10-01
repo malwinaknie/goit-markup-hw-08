@@ -79,7 +79,7 @@ a {
   margin: 0 auto;
 }
 
-.our-team__container {
+.team__container {
   width: 1200px;
   margin: 0 auto;
 }
@@ -364,7 +364,7 @@ a {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.our-team__circle {
+.social__circle {
   width: 44px;
   height: 44px;
   display: flex;
@@ -373,8 +373,7 @@ a {
   align-items: center;
   gap: 10px;
 }
-
-.our-team__social-icons, .footer__socials-container .footer__icon {
+.social__icon {
   display: flex;
   width: 44px;
   height: 44px;
@@ -382,29 +381,7 @@ a {
   background-color: #ffffff;
   fill: #afb1b8;
 }
-
-.our-team__social-icons:hover, .footer__socials-container .footer__icon:hover,
-.our-team__social-icons:focus svg,
-.footer__socials-container .footer__icon:focus svg,
-.our-team__social-icons:focus svg {
-  background-color: #2196f3;
-  fill: #ffffff;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer__socials-container {
-  width: 44px;
-  height: 44px;
-  display: flex;
-  gap: 10px;
-}
-.footer__socials-container .footer__icon {
-  background-color: rgba(255, 255, 255, 0.1);
-  fill: #ffffff;
-}
-
-.footer__icon:hover,
-.footer__icon:focus svg {
+.social__icon:hover, .social__icon:hover, .social__icon:focus svg, .social__icon:focus svg {
   background-color: #2196f3;
   fill: #ffffff;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -599,34 +576,37 @@ footer p {
   background-position: center;
 }
 
-.our-team {
+.team {
   background-color: #f5f4fa;
   margin-top: 94px;
   padding-top: 64px;
   margin-bottom: 94px;
 }
-.our-team ul {
+.team ul {
   padding-left: 15px;
   padding-right: 15px;
   display: flex;
   gap: 30px;
 }
-.our-team li {
+.team li {
   background-color: #ffffff;
   margin-bottom: 94px;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-.our-team__worker-name {
+.team__member {
   text-align: center;
   font-size: 16px;
   font-weight: 500;
+  margin-bottom: 10px;
 }
-.our-team__signature {
+.team__signature {
   font-size: 16px;
   color: #757575;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
+  margin-top: 0;
+  padding-top: 0;
   padding-left: 0;
 }
 
