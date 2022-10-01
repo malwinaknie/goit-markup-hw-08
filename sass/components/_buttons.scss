@@ -12,8 +12,8 @@
     margin-bottom: 200px;
     border-radius: 4px;
 
-    &.main-section__button:hover,
-    &.main-section__button:focus {
+    &:hover,
+    &:focus {
         color: $button-hover-white;
         background-color: $brand-color;
         border-color: $brand-color;
