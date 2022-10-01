@@ -1,15 +1,15 @@
-.our-advantages ul{
+.advantages ul{
     display: flex;
     margin-top: 94px;
     margin-bottom: 94px;
     margin-left: 15px;
     margin-right: 15px;
     gap: 30px;
-}
 
-.our-advantages__text {
+    p {
     font-size: 14px;
     line-height: 1.71;
     color: $text-decoration-color;
     padding-left: 0;
+}
 }

@@ -69,7 +69,7 @@ a {
   margin: 0 auto;
 }
 
-.our-advantages__container {
+.advantages__container {
   width: 1200px;
   margin: 0 auto;
 }
@@ -723,7 +723,7 @@ p {
   padding-left: 0;
 }
 
-.our-advantages ul {
+.advantages ul {
   display: flex;
   margin-top: 94px;
   margin-bottom: 94px;
@@ -731,8 +731,7 @@ p {
   margin-right: 15px;
   gap: 30px;
 }
-
-.our-advantages__text {
+.advantages ul p {
   font-size: 14px;
   line-height: 1.71;
   color: #757575;
