@@ -1,4 +1,4 @@
-footer {
+.footer {
     background-color: $background-color;
     height: 259px;
     padding: 55.5px 0;
@@ -12,10 +12,9 @@ footer {
         margin-bottom: 20px;
         padding-left: 0;
     }
-}
 
-.footer__address {
-    margin-left: 15px;
+    &__address {
+        margin-left: 15px;
 
     p {
         padding-left: 0;
@@ -29,42 +28,45 @@ footer {
 }
 }
 
-.footer__contact {
-    display: flex;
-    text-decoration: none;
-    color: $secondary-address-color;
-    margin-bottom: 9px;
-    font-size: 14px;
+    &__contact {
+        display: flex;
+        text-decoration: none;
+        color: $secondary-address-color;
+        margin-bottom: 9px;
+        font-size: 14px;
 
-    &:hover {
+    &:hover,
+    &:focus {
         @include transition($brand-color, $transition)
     }
 }
 
-.footer__contact:focus {
-        @include transition($brand-color, $transition)
+    &__join-us {
+        margin-left: 70px;
+        width: 208px;
 }
 
-.footer__join-us {
-    margin-left: 70px;
-    width: 208px;
+    &__newsletter {
+        padding-left: 78px;
+        width: 572px;
+
+    svg {
+        position: absolute;
+        fill: $primary-address-color;
+        pointer-events: none;
+    }
 }
 
-.footer__newsletter {
-    padding-left: 78px;
-    width: 572px;
-}
-
-.footer__form {
-    border-radius: 4px;
-    width: 358px;
-    height: 50px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    background-color: var(--background-color);
-    color: rgba(255, 255, 255, 0.3);
-    box-shadow: rgba(0, 0, 0, 0.15);
-    offset: 0px, 4px;
-    padding-left: 16px;
+    &__form {
+        border-radius: 4px;
+        width: 358px;
+        height: 50px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        background-color: var(--background-color);
+        color: rgba(255, 255, 255, 0.3);
+        box-shadow: rgba(0, 0, 0, 0.15);
+        offset: 0px, 4px;
+        padding-left: 16px;
 
     &:hover,
     &:focus {
@@ -72,9 +74,4 @@ footer {
         transition: $transition;
     }
 }
-
-.newsletter__icon {
-    position: absolute;
-    fill: $primary-address-color;
-    pointer-events: none;
 }

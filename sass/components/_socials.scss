@@ -1,50 +1,43 @@
 .social{
 
     &__circle {
-    width: 44px;
-    height: 44px;
-    display: flex;
-    margin-left: 32px;
-    margin-bottom: 30px;
-    align-items: center;
-    gap: 10px;
+        width: 44px;
+        height: 44px;
+        display: flex;
+        margin-left: 32px;
+        margin-bottom: 30px;
+        align-items: center;
+        gap: 10px;
 }
 
     &__icon {
-    display: flex;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background-color: $primary-address-color;
-    fill: $Icon-Color;
+        display: flex;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: $primary-address-color;
+        fill: $Icon-Color;
 }
 
 &__icon:hover,
 &__icon:hover,
 &__icon:focus svg,
 &__icon:focus svg {
-    background-color: $brand-color;
-    fill: $primary-address-color;
-    transition: $transition;
+        background-color: $brand-color;
+        fill: $primary-address-color;
+        transition: $transition;
 }
 
-// .footer__socials-container {
-//     width: 44px;
-//     height: 44px;
-//     display: flex;
-//     gap: 10px;
+&__container {
+        width: 44px;
+        height: 44px;
+        display: flex;
+        gap: 10px;
+}
 
-//     .footer__icon {
-//         @extend __icon;
-//         background-color: $footer-icon-background;
-//         fill: $primary-address-color;
-//     }
-// }
-
-// .footer__icon:hover,
-// .footer__icon:focus svg {
-//     background-color: $brand-color;
-//     fill: $primary-address-color;
-//     transition: $transition;
-// }
+&__footer--icon {
+        @extend .social__icon;
+        background-color: $footer-icon-background;
+        fill: $primary-address-color;
+}
 }
