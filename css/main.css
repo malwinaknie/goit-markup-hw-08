@@ -64,6 +64,31 @@ a {
   margin: 0 auto;
 }
 
+.slider__container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.our-advantages__container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.what-we-do__container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.our-team__container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.clients__container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .footer__container {
   display: flex;
   width: 1200px;
@@ -249,7 +274,7 @@ a {
   margin-top: 2px;
 }
 
-#signup-form label {
+.modal__signup-form label {
   display: flex;
   flex-direction: column;
   color: rgb(117, 117, 117);
@@ -271,7 +296,7 @@ a {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-#modal__text-form {
+.modal__text-form {
   width: 448px;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -283,8 +308,8 @@ a {
   padding-left: 16px;
   color: rgba(117, 117, 117, 0.5);
 }
-#modal__text-form:hover,
-#modal__text-form :focus {
+.modal__text-form:hover,
+.modal__text-form :focus {
   border: 1px solid #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -334,7 +359,7 @@ a {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.__circle {
+.our-team__circle {
   width: 44px;
   height: 44px;
   display: flex;
@@ -344,7 +369,7 @@ a {
   gap: 10px;
 }
 
-.social-icons, .footer__socials-container .footer__icon {
+.our-team__social-icons, .footer__socials-container .footer__icon {
   display: flex;
   width: 44px;
   height: 44px;
@@ -353,11 +378,10 @@ a {
   fill: #afb1b8;
 }
 
-.social-icons:hover, .footer__socials-container .footer__icon:hover,
-.icons-footer:hover,
-.social-icons:focus svg,
+.our-team__social-icons:hover, .footer__socials-container .footer__icon:hover,
+.our-team__social-icons:focus svg,
 .footer__socials-container .footer__icon:focus svg,
-.icons-footer:focus svg {
+.our-team__social-icons:focus svg {
   background-color: #2196f3;
   fill: #ffffff;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -535,7 +559,7 @@ footer p {
   pointer-events: none;
 }
 
-.our-clients__container {
+.our-clients__container--display {
   display: flex;
   margin-bottom: 92px;
   align-items: center;
