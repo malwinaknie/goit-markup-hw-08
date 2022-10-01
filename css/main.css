@@ -533,36 +533,28 @@ footer p {
   pointer-events: none;
 }
 
-.our-clients__container--display {
+.clients--display {
   display: flex;
   margin-bottom: 92px;
   align-items: center;
   gap: 30px;
 }
-
-.our-clients__client {
+.clients__icon {
   display: flex;
   fill: #afb1b8;
   border-radius: 4px;
   width: 170px;
   height: 92px;
 }
-
-.our-clients__box {
+.clients__box {
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
-
-.our-clients__box:hover,
-.our-clients__box:active,
-.our-clients__box:focus {
+.clients__box:hover, .clients__box:active, .clients__box:focus {
   border: 1px solid #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.our-clients__client:hover,
-.our-clients__client:active,
-.our-clients__client:focus svg {
+.clients__icon:hover, .clients__icon:active, .clients__icon:focus svg {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #2196f3;
   fill: #2196f3;

@@ -1,11 +1,13 @@
-.our-clients__container--display {
+.clients {
+
+&--display {
     display: flex;
     margin-bottom: 92px;
     align-items: center;
     gap: 30px;
 }
 
-.our-clients__client {
+&__icon {
     display: flex;
     fill: $Icon-Color;
     border-radius: 4px;
@@ -13,20 +15,21 @@
     height: 92px;
 }
 
-.our-clients__box {
+&__box {
     border: 1px solid $Icon-Color;
     border-radius: 4px;
 }
 
-.our-clients__box:hover,
-.our-clients__box:active,
-.our-clients__box:focus {
+&__box:hover,
+&__box:active,
+&__box:focus {
     border: 1px solid $brand-color;
     transition: $transition;
 }
 
-.our-clients__client:hover,
-.our-clients__client:active,
-.our-clients__client:focus svg {
+&__icon:hover,
+&__icon:active,
+&__icon:focus svg {
     @include transition($brand-color, $transition)
+}
 }
