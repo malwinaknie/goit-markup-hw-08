@@ -13,23 +13,24 @@
     border-radius: 4px;
     width: 170px;
     height: 92px;
+
+    
+    &:hover,
+    &:active,
+    &:focus svg {
+        @include transition($brand-color, $transition)
+}
 }
 
 &__box {
     border: 1px solid $Icon-Color;
     border-radius: 4px;
-}
 
-&__box:hover,
-&__box:active,
-&__box:focus {
-    border: 1px solid $brand-color;
-    transition: $transition;
+    &:hover,
+    &:active,
+    &:focus {
+        border: 1px solid $brand-color;
+        transition: $transition;
 }
-
-&__icon:hover,
-&__icon:active,
-&__icon:focus svg {
-    @include transition($brand-color, $transition)
 }
 }

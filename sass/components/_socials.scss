@@ -17,16 +17,14 @@
         border-radius: 50%;
         background-color: $primary-address-color;
         fill: $Icon-Color;
-}
 
-&__icon:hover,
-&__icon:hover,
-&__icon:focus svg,
-&__icon:focus svg {
-        background-color: $brand-color;
-        fill: $primary-address-color;
-        transition: $transition;
+        &:hover,
+        &:focus svg{
+                background-color: $brand-color;
+                fill: $primary-address-color;
+                transition: $transition;
 }
+    }
 
 &__container {
         width: 44px;

@@ -5,33 +5,33 @@
     margin-bottom: 94px;
 
     ul {
-    padding-left: 15px;
-    padding-right: 15px;
-    display: flex;
-    gap: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        display: flex;
+        gap: 30px;
     }
 
     li {
-    background-color: $primary-address-color;
-    margin-bottom: 94px;
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        background-color: $primary-address-color;
+        margin-bottom: 94px;
+        border-radius: 0px 0px 4px 4px;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     }
 
     &__member {
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    margin-bottom: 10px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 10px;
     }
 
     &__signature {
-    font-size: 16px;
-    color: $text-decoration-color;
-    text-align: center;
-    margin-bottom: 16px;
-    margin-top: 0;
-    padding-top: 0;
-    padding-left: 0;
+        font-size: 16px;
+        color: $text-decoration-color;
+        text-align: center;
+        margin-bottom: 16px;
+        margin-top: 0;
+        padding-top: 0;
+        padding-left: 0;
 }
 }

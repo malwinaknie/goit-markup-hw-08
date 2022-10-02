@@ -8,8 +8,8 @@
     border-radius: 50%;
     cursor: pointer;
 
-    &.modal__close-btn:hover,
-    .modal__close-btn:focus {
+    &:hover,
+    &:focus {
         color: $primary-address-color;
         background-color: $text-decoration-color;
         transition: $transition;
@@ -33,8 +33,8 @@
     box-shadow: rgba(0, 0, 0, 0.15);
     offset: 0px, 4px;
 
-    &.form__btn--send:hover,
-    .form__btn--send:focus {
+    &:hover,
+    &:focus {
         background-color: $brand-color;
         color: $primary-address-color;
         transition: $transition;
