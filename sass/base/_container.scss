@@ -4,6 +4,14 @@
     margin: 0 auto;
 }
 
+.modal__container {
+    width: 1200px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
 .slider__container {
     width: 1200px;
     margin: 0 auto;
