@@ -66,8 +66,14 @@ a {
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .header__container {
-    width: 100%;
-    padding: 0 15px;
+    display: flex;
+    min-width: 320px;
+    max-width: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
   }
 }
 .modal__container {
@@ -254,6 +260,7 @@ a {
     font-size: 24px;
     margin-left: -15px;
     margin-top: 16px;
+    padding-left: 15px;
   }
 }
 .backdrop {
@@ -464,7 +471,6 @@ a {
   .header {
     display: flex;
     height: 60px;
-    padding: 0 15px;
   }
   .header__nav {
     display: none;

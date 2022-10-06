@@ -6,8 +6,14 @@
 
 @media screen and (min-width:320px) and (max-width: 480px) {
     .header__container {
-        width: 100%;
-        padding: 0 15px;
+        display: flex;
+        min-width: 320px;
+        max-width: 480px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
     }
 }
 

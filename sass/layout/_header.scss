@@ -74,8 +74,9 @@
         @media screen and (max-width: 480px) {
             .header {
                 display: flex;
+                
                 height: 60px;
-                padding: 0 15px;
+                
             }
 
             .header__nav {
@@ -89,20 +90,19 @@
         }
   
         .menu-toggle {
-            min-height: 40px;
-            min-width: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          
-            margin: 0;
-            padding: 0;
-            background-color: transparent;
-            cursor: pointer;
-            border: none;
-            border-radius: 50%;
-            outline: none;
-          }
+          min-height: 40px;
+          min-width: 40px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 0;
+          padding: 0;
+          background-color: transparent;
+          cursor: pointer;
+          border: none;
+          border-radius: 50%;
+          outline: none;
+        }
           
           @media (min-width: 768px) {
             .menu-toggle {
