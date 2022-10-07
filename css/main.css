@@ -446,16 +446,15 @@ a {
   color: #212121;
 }
 
-.mobile-menu__contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-
 .mobile-menu {
   padding: 0;
   margin-bottom: 0;
   list-style: none;
+}
+.mobile-menu__contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 .mobile-menu__telephone {
   font-size: 34px;
@@ -507,12 +506,8 @@ a {
   .menu-toggle {
     display: none;
   }
-  .mobile-menu {
-    flex-wrap: wrap;
-  }
-  .mobile-menu__socials {
-    flex-basis: wrap;
-    flex-wrap: wrap;
+  .menu-container.is-open {
+    display: none;
   }
 }
 .header {
