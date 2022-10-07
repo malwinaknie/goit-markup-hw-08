@@ -22,11 +22,14 @@
 
     .menu-container {
       position: fixed;
+      display: flex;
+      justify-content: space-between;
       top: 0;
       left: 0;
       width: 100vw;
       height: 100vh;
-      padding: 32px;
+      padding: 32px 32px;
+      flex-wrap: wrap;
       background-color: $primary-address-color;
       z-index: 999;
       transform: translateX(100%);
@@ -44,18 +47,21 @@
       color: $text-color;
     }
     
+    .mobile-menu__contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
     .mobile-menu {
       padding: 0;
-      margin: 0;
+      margin-bottom: 0;
       list-style: none;
 
       &__telephone {
-        display: flex;
-        margin-top: 235px;
-        margin-bottom: 30px;
         font-size: 34px;
         color: $text-decoration-color;
-        height: 40px;
+        margin-bottom: 32px;
         
       &:hover,
       &:focus,
@@ -68,6 +74,7 @@
       &__mail {
         color: $text-decoration-color;
         font-size: 24px;
+        margin-bottom: 64px;
 
         &:hover,
       &:focus,
@@ -77,17 +84,14 @@
       }
       }
       &__socials {
-        margin-top: 54px;
         font-weight: 500;
         font-size: 18px;
         display: flex;
-        & > a:not(:last-child) {
-          padding-right: 10px;
-          border-right: 1px solid rgba(33, 33, 33, 0.2);
-      }
+        flex-wrap: wrap;
         a {
           color: $brand-color;
         }
+
         ul {
           display: flex;
           flex-wrap: wrap;
