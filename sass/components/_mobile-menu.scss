@@ -1,0 +1,127 @@
+.menu-toggle {
+    min-height: 40px;
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    
+    &:hover svg,
+    &:focus svg,
+    &:active svg {
+      fill: $brand-color;
+      transition: $transition;
+    }
+  }
+
+    .menu-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      padding: 32px;
+      background-color: $primary-address-color;
+      z-index: 999;
+      transform: translateX(100%);
+      transition: transform 250ms ease-in-out;
+    }
+    
+    .menu-container.is-open {
+      transform: translateX(0);
+    }
+    
+    .menu-container .menu-toggle {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      color: $text-color;
+    }
+    
+    .mobile-menu {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+
+      &__telephone {
+        display: flex;
+        margin-top: 235px;
+        margin-bottom: 30px;
+        font-size: 34px;
+        color: $text-decoration-color;
+        height: 40px;
+        
+      &:hover,
+      &:focus,
+      &:active {
+        color: $brand-color;
+        transition: $transition;
+      }
+      }
+      
+      &__mail {
+        color: $text-decoration-color;
+        font-size: 24px;
+
+        &:hover,
+      &:focus,
+      &:active {
+        color: $brand-color;
+        transition: $transition;
+      }
+      }
+      &__socials {
+        margin-top: 54px;
+        font-weight: 500;
+        font-size: 18px;
+        display: flex;
+        & > a:not(:last-child) {
+          padding-right: 10px;
+          border-right: 1px solid rgba(33, 33, 33, 0.2);
+      }
+        a {
+          color: $brand-color;
+        }
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+        }
+        }
+      }
+
+    .mobile-menu .link {
+      font-size: 500;
+      font-size: 40px;
+      display: block;
+      padding: 10px;
+      color: $text-color;
+      text-decoration: none;
+
+      &:hover,
+      &:focus,
+      &:active {
+        color: $brand-color;
+        transition: $transition;
+      }
+    }
+
+    @media screen and (min-width:481px) {
+      .menu-toggle {
+        display: none;
+      }
+      .mobile-menu {
+        flex-wrap: wrap;
+      
+      &__socials{
+        flex-basis: wrap;
+        flex-wrap: wrap;
+      }
+    }
+  }
