@@ -37,3 +37,36 @@
         }
     }
     }
+
+    @media screen and (min-width:768px) and (max-width:1200px) {
+        .advantages ul {
+            display: flex;
+            margin-top: 60px;
+            flex-wrap: wrap;
+            margin-left: 0;
+            margin-right: 0;
+
+            li {
+                display: block;
+                width: 100%;
+                flex-basis: calc((100% - 30px) / 2);
+                
+
+            & svg {
+                display: flex;
+                background-color: rgba(245, 244, 250, 1);
+                align-content: center;
+                width: 100%;
+                height: 120px;
+                padding: 25px 0;
+            }
+            h3 {
+                text-align: left;
+            }
+            p {
+                text-align: left;
+                width: 100%;
+            }
+        }
+    }
+}

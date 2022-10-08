@@ -151,6 +151,17 @@ a {
     padding: 0 15px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .advantages__container {
+    min-width: 768px;
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
 .offer__container {
   width: 1200px;
   margin: 0 auto;
@@ -960,5 +971,34 @@ a {
   }
   .advantages ul p {
     text-align: left;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .advantages ul {
+    display: flex;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .advantages ul li {
+    display: block;
+    width: 100%;
+    flex-basis: calc((100% - 30px) / 2);
+  }
+  .advantages ul li svg {
+    display: flex;
+    background-color: rgb(245, 244, 250);
+    align-content: center;
+    width: 100%;
+    height: 120px;
+    padding: 25px 0;
+  }
+  .advantages ul li h3 {
+    text-align: left;
+  }
+  .advantages ul li p {
+    text-align: left;
+    width: 100%;
   }
 }/*# sourceMappingURL=main.css.map */

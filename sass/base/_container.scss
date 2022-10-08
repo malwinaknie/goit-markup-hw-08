@@ -72,6 +72,18 @@
     }
     }
 
+    @media screen and (min-width:768px) and (max-width:1200px) {
+        .advantages__container {
+            min-width: 768px;
+            max-width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+    }
+
 .offer__container {
     width: 1200px;
     margin: 0 auto;
