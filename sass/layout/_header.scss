@@ -77,7 +77,12 @@
                 height: 60px;
             
             &__nav {
-                display: none;
+                padding: 0;
+                margin: 0;
+
+                li {
+                    display: none;
+                }
             }
             &__contact {
                 display: none;
@@ -85,13 +90,15 @@
           }
         }
 
-        @media screen and (min-width:768px) and (max-width:1599px) {
+        @media screen and (min-width:768px) and (max-width:1200px) {
           .header {
             display: flex;
             padding: 0;
 
             &__nav {
-              padding: 0;
+                gap: 60px;
+                padding-left: 0;
+                align-content: flex-start;
             }
 
             &__contact {
@@ -99,7 +106,7 @@
               flex-direction: column;
               margin-top: 20px;
               gap: 10px;
-              margin-left: 0;
+            margin-left: 0;
             }
           }
         }

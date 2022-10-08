@@ -3,41 +3,21 @@
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
         ),
-        url("../images/background-img.jpg");
+        url("../images/dbackground-img.jpg");
     height: 600px;
     background-color: $background-color;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width:320px) and (max-width:1200px) {
     .slider {
         background-image: linear-gradient(
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
         ),
-        url("../images/mHeader-img.jpg");
-        width: 480px;
+        url("../images/tbackground-img.jpg");
         height: 400px;
-        background-color: $background-color;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-    @media (min-device-pixel-ratio: 2),
-        (-webkit-min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
-        .slider {
-            background-image: linear-gradient(
-                rgba(47, 48, 58, 0.4),
-                rgba(47, 48, 58, 0.4)
-            ),
-            url("../images/mHeader-img@2x.jpg");
-            background-size: contain;
-            background-color: $background-color;
-            background-repeat: no-repeat;
-            background-position: center;
-        }
+        background-size: cover;
     }
 }
