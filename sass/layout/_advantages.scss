@@ -70,3 +70,12 @@
         }
     }
 }
+
+@media screen and (min-width:1200px) {
+    .advantages svg {
+        background-color: rgba(245, 244, 250, 1);
+        width: 100%;
+        height: 120px;
+        padding: 25px 0;
+    }
+}
