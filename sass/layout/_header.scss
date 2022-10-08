@@ -44,7 +44,7 @@
     &__contact {
     display: flex;
     gap: 50px;
-    margin-left: 378px;
+    // margin-left: 378px;
 
     & a {
         display: flex;
@@ -109,4 +109,17 @@
             margin-left: 0;
             }
           }
+        }
+
+        @media screen and (min-width:1200px) {
+            .header {
+                display: flex;
+
+                &__nav {
+                    padding-left: 0;
+                }
+                &__contact {
+                    gap: 30px;
+                }
+            }
         }

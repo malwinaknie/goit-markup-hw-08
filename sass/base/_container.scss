@@ -25,6 +25,20 @@
         }
     }
 
+    @media screen and (min-width:1200px) {
+        .header__container {
+            display: flex;
+            width: 1200px;
+            max-width: 100%;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-left: 0;
+            margin-right: 0;
+            justify-content: space-between;
+            margin: 0 auto;
+        }
+    }
+
 .modal__container {
     width: 1200px;
     display: flex;
@@ -83,6 +97,13 @@
             gap: 30px;
         }
     }
+
+    @media screen and (min-width:1200px) { 
+       .advantages__container {
+        padding: 0 15px;
+       }
+    }
+
 
 .offer__container {
     width: 1200px;
