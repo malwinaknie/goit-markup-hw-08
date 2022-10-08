@@ -13,16 +13,17 @@
         padding-right: 15px;
         justify-content: space-between;
     }
+    }
 
-//     @media screen and (min-width:481px) and (max-width:768px) {
-//         .header__container {
-//             height: 80px;
-//             width: 100%;
-//             display: flex;
-//             justify-content: space-between;
-//     }
-// }
-}
+    @media screen and (min-width:768px) and (max-width:1599px) {
+        .header__container {
+            min-width: 768px;
+            max-width: 1599px;
+            padding-left: 15px;
+            padding-right: 15px;
+            justify-content: space-between;
+        }
+    }
 
 .modal__container {
     width: 1200px;

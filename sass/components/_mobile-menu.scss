@@ -125,11 +125,15 @@
       .menu-container.is-open {
         display: none;
       }
-      @media screen and (max-width:767px) {
+      @media screen and (min-width:767px) {
         .menu-toggle {
           display: none;
         }
         .menu-container.is-open {
+          display: none;
+        }
+
+        .menu-container {
           display: none;
         }
   }
