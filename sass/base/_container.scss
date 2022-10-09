@@ -141,6 +141,30 @@
     margin: 0 auto;
 }
 
+@media screen and (min-width:320px) and (max-width: 767px) {
+    .clients__container {
+        min-width: 320px;
+        max-width: 100%;
+        margin: 0;
+        padding: 0 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    }
+
+@media screen and (min-width:768px) and (max-width:1200px) {
+    .clients__container {
+        min-width: 768px;
+            max-width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 30px;
+    }
+}
+
 .category-buttons__container {
     width: 1200px;
     margin: 0 auto;
