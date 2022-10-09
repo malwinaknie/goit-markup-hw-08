@@ -937,6 +937,11 @@ a {
     height: 92px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .clients__box {
+    flex-basis: calc((100% - 90px) / 3);
+  }
+}
 .slider {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/dbackground-img.jpg");
   height: 600px;
