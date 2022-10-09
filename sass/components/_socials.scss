@@ -39,3 +39,14 @@
         fill: $primary-address-color;
 }
 }
+
+@media screen and (min-width:320px) and (max-width: 767px) {
+    .social {
+
+        &__circle {
+            width: 100%;
+            margin-left: 0;
+            justify-content: center;
+        }
+    }
+}

@@ -78,6 +78,13 @@ h2 {
   margin-bottom: 50px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  h2 {
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+}
 a {
   text-decoration: none;
 }
@@ -190,6 +197,14 @@ a {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .team__container {
+    min-width: 320px;
+    max-width: 100%;
+    margin: 0;
+    padding: 0 15px;
+  }
+}
 .clients__container {
   width: 1200px;
   margin: 0 auto;
@@ -499,6 +514,13 @@ a {
   fill: #ffffff;
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .social__circle {
+    width: 100%;
+    margin-left: 0;
+    justify-content: center;
+  }
+}
 .menu-toggle {
   min-height: 40px;
   min-width: 40px;
@@ -883,6 +905,25 @@ a {
   padding-left: 0;
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .team {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .team ul {
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    width: 100%;
+  }
+  .team li {
+    margin-bottom: 0;
+  }
+  .team__photo {
+    width: 100%;
+    height: auto;
+  }
+}
 .portfolio__name {
   font-weight: 700;
   font-size: 18px;
