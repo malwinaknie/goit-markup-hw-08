@@ -1,9 +1,10 @@
-.social{
+.social {
 
     &__circle {
         width: 44px;
         height: 44px;
         display: flex;
+        flex-direction: row;
         margin-left: 32px;
         margin-bottom: 30px;
         align-items: center;
@@ -48,12 +49,17 @@
             margin-left: 0;
             justify-content: center;
         }
+
+    &__container {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 60px;
+    }
     }
 }
 
 @media screen and (min-width:768px) and (max-width:1200px) {
     .social {
-
         &__circle {
             width: 100%;
             margin-left: 0;

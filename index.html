@@ -311,14 +311,14 @@
                     <li class="clients__box">
                         <a class="clients__link" href="">
                             <svg class="clients__icon">
-                                <use href="./images/icons.svg#icon-group-1" width="93" height="46" y="23"></use>
+                                <use href="./images/icons.svg#icon-group_2" width="93" height="46" y="23"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="clients__box">
                         <a class="clients__link" href="">
                             <svg class="clients__icon">
-                                <use href="./images/icons.svg#icon-group_2" width="93" height="52" y="21"></use>
+                                <use href="./images/icons.svg#icon-group-1" width="93" height="52" y="21"></use>
                             </svg>
                         </a>
                     </li>
@@ -354,6 +354,102 @@
             </div>
             </section>
         </main>
+
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__address">
+                    <a class="footer__logo" href="">Web<span>Studio</span></a>
+                    <p>m. Warszawa, Aleje Jerozolimskie 21</p>
+                    <a class="footer__contact" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a/>
+                <a class="footer__contact" href="tel:+48111111111">+48111111111</a>
+                </div>
+                <div class="footer__join-us">
+                    <p>DOŁĄCZ DO NAS</p>
+                    <div class="social__container">
+                        <a class="social__footer--icon" href="#">
+                    <svg class="social__footer--icon">
+                        <use href="./images/icons.svg#icon-instagram" width="20" height="20" x="12" y="12"></use>
+                      </svg>
+                    </a>
+                    <a class="social__footer--icon" href="#">
+                        <svg class="social__footer--icon">
+                            <use href="./images/icons.svg#icon-twitter" width="20" height="20" x="12" y="12"></use>
+                          </svg>
+                        </a>
+                        <a class="social__footer--icon" href="#">
+                            <svg class="social__footer--icon">
+                                <use href="./images/icons.svg#icon-facebook" width="20" height="20" x="12" y="12"></use>
+                              </svg>
+                            </a>
+                            <a class="social__footer--icon" href="#">
+                                <svg class="social__footer--icon">
+                                    <use href="./images/icons.svg#icon-linkedin" width="20" height="20" x="12" y="12"></use>
+                                  </svg>
+                                </a>
+                    </div>
+                </div>
+                <div class="footer__newsletter">
+                    <p>ZAPISZ SIĘ DO NEWSLETTERA</p>
+                    <form name="newsletter-form" autocomplete="on" novalidate>
+                        <label>
+                            <input class="footer__form" type="email" name="email" placeholder="E-mail"/></label>
+                        <button class="footer__btn" type="submit">Zapisz się
+                        <svg width="50" height="24">
+                            <use href="./images/icons.svg#icon-send" viewBox="0 0 32 32" x="4"></use>
+                        </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </footer>
+
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal__container">
+            <div class="modal">
+                 <button type="button" class="modal__close-btn" data-modal-close>X</button>
+            </button>
+            <h2 class="modal__text" >Zostaw swoje dane w formularzu poniżej</h2>
+
+            <form name="signup-form" autocomplete="on" novalidate class="modal__signup-form">  
+                <label>
+                    Imię
+                    <input type="name" name="name" value=""/>
+                    <svg class="modal__icons">
+                        <use href="./images/icons.svg#icon-character" width="12" height="12" x="14" y="31"></use>
+                    </svg>
+                </label>
+
+                <label>
+                    Telefon
+                    <input type="telephone" name="telephone"/>
+                    <svg class="modal__icons">
+                        <use href="./images/icons.svg#icon-telephone" width="13" height="13" x="14" y="32"></use>
+                    </svg>
+                </label>
+
+                <label>
+                    E-mail
+                        <input type="e-mail" name="e-mail"/>
+                        <svg class="modal__icons">
+                            <use href="./images/icons.svg#icon-email" width="15" height="15" x="14" y="30"></use>
+                        </svg>
+                </label>
+
+                <label> 
+                    Komentarz
+                    <textarea name="comment" class="modal__text-form" placeholder="Wprowadź tekst"></textarea>
+                </label>
+            </form>
+
+            <form action="#" method="post">
+                <input class="modal__form-policy visually-hidden" id="user-policy" type="checkbox" name="policy">
+                <label for="user-policy" class="modal__form-policy-text">Oświadczam iż akceptuję <a href="">Regulamin</a> i <a href="">Politykę Prywatności</a>.</label>
+            </form>
+            <button class="form__btn--send" type="submit">Wyślij</button>
+        </div>
+        </div>
+        </div>
             <!-- <section class="slider">
                     <div class="slider__container">
                         <h1>

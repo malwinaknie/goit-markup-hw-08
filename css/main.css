@@ -20,6 +20,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
+  height: 100%;
 }
 
 ul {
@@ -352,7 +353,6 @@ a {
 }
 
 .footer__btn {
-  position: absolute;
   width: 200px;
   height: 50px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -361,9 +361,10 @@ a {
   border-style: none;
   margin-left: 12px;
   font-weight: 700;
+  text-align: center;
+  cursor: pointer;
   text-align: left;
   padding-left: 42px;
-  cursor: pointer;
 }
 .footer__btn:hover, .footer__btn:focus {
   background-color: #2196f3;
@@ -414,6 +415,11 @@ a {
 @media screen and (min-width: 1200px) {
   .header__logo {
     margin-right: 46px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer__logo {
+    margin: 0;
   }
 }
 .backdrop {
@@ -524,6 +530,7 @@ a {
   width: 44px;
   height: 44px;
   display: flex;
+  flex-direction: row;
   margin-left: 32px;
   margin-bottom: 30px;
   align-items: center;
@@ -558,6 +565,11 @@ a {
     width: 100%;
     margin-left: 0;
     justify-content: center;
+  }
+  .social__container {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 60px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1200px) {
@@ -808,13 +820,14 @@ a {
 }
 .footer p {
   font-size: 14px;
-  color: #ffffff;
   font-weight: 700;
-  margin-top: 7px;
+  padding-top: 20px;
+  color: #ffffff;
   margin-bottom: 14px;
   padding-left: 0;
 }
 .footer__address {
+  display: block;
   margin-left: 15px;
 }
 .footer__address p {
@@ -826,6 +839,10 @@ a {
   font-size: 14px;
   line-height: 1, 17;
   font-weight: 400;
+}
+.footer__join-us {
+  margin-left: 70px;
+  width: 206px;
 }
 .footer__contact {
   display: flex;
@@ -839,13 +856,8 @@ a {
   color: #2196f3;
   fill: #2196f3;
 }
-.footer__join-us {
-  margin-left: 70px;
-  width: 208px;
-}
 .footer__newsletter {
-  padding-left: 78px;
-  width: 572px;
+  margin-left: 78px;
 }
 .footer__newsletter svg {
   position: absolute;
