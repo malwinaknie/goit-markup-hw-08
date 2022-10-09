@@ -85,6 +85,12 @@ h2 {
     margin-bottom: 30px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  h2 {
+    margin-top: 0;
+    font-size: 28px;
+  }
+}
 a {
   text-decoration: none;
 }
@@ -203,6 +209,17 @@ a {
     max-width: 100%;
     margin: 0;
     padding: 0 15px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .team__container {
+    min-width: 768px;
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
   }
 }
 .clients__container {
@@ -515,6 +532,13 @@ a {
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  .social__circle {
+    width: 100%;
+    margin-left: 0;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .social__circle {
     width: 100%;
     margin-left: 0;
@@ -922,6 +946,30 @@ a {
   .team__photo {
     width: 100%;
     height: auto;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .team__photo {
+    width: 100%;
+    height: auto;
+  }
+  .team ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 60px;
+    width: 100%;
+    justify-content: center;
+  }
+  .team ul li {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc((100% - 30px) / 2);
+    margin: 0;
+  }
+  .team h2 {
+    margin-top: 0;
   }
 }
 .portfolio__name {

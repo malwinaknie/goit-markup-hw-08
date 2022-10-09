@@ -56,7 +56,36 @@
             width: 100%;
             height: auto;
         }
-
-        
     }
+}
+
+@media screen and (min-width:768px) and (max-width:1200px) {
+    .team {
+
+        &__photo {
+            width: 100%;
+            height: auto;
+        }
+
+        ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 60px;
+        width: 100%;
+        justify-content: center;
+
+        li {
+            display: flex;
+            flex-direction: column;
+            flex-basis: calc((100% - 30px) / 2);
+            margin: 0;
+        }
+    }
+        h2 {
+            margin-top: 0;
+            
+        }
+}
 }
