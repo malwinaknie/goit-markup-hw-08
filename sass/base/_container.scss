@@ -180,3 +180,14 @@
     width: 1200px;
     margin: 0 auto;
 }
+
+@media screen and (min-width:320px) and (max-width: 767px) {
+.footer__container {
+    display: flex;
+    max-width: 100%;
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-direction: column;
+}
+}
