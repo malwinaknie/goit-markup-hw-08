@@ -30,6 +30,7 @@
       width: 100vw;
       height: 100vh;
       padding: 32px 32px;
+      padding-bottom: 70px;
       flex-wrap: wrap;
       background-color: $primary-address-color;
       z-index: 999;
@@ -74,7 +75,7 @@
       
       &__mail {
         color: $text-decoration-color;
-        font-size: 24px;
+        font-size: 28px;
         margin-bottom: 64px;
 
         &:hover,
@@ -85,8 +86,10 @@
       }
       }
       &__socials {
+        letter-spacing: ;
+        line-height: 1,22;
         font-weight: 500;
-        font-size: 18px;
+        font-size: 20px;
         display: flex;
         flex-wrap: wrap;
         
@@ -98,17 +101,24 @@
           display: flex;
           flex-wrap: wrap;
           gap: 10px;
+
+          & > li:not(:last-child) {
+            padding-right: 10px;
+            border-right: 1px solid rgba(33, 33, 33, 0.2);
+        }
         }
         }
       }
 
-    .mobile-menu .link {
-      font-size: 500;
+    .link {
       font-size: 40px;
+      font-weight: 500;
       display: block;
       padding: 10px;
       color: $text-color;
       text-decoration: none;
+      padding-bottom: 32px;
+      margin-top: 30px;
 
       &:hover,
       &:focus,
