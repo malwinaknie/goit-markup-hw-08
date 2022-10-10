@@ -397,7 +397,8 @@ a {
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .footer__btn {
-    margin-left: 120px;
+    margin: auto;
+    display: block;
   }
 }
 .header__logo {
@@ -1000,14 +1001,16 @@ a {
     display: flex;
     align-self: flex-end;
     flex-direction: column;
-    width: 450px;
-    margin-left: 150px;
+    width: 100%;
+    margin: 0;
+    margin-left: 78px;
+    margin-right: 78px;
   }
   .footer__form {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
-    width: 450px;
+    width: 100%;
   }
 }
 .clients {

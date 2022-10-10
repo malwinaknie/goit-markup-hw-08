@@ -79,6 +79,7 @@
 
 @media screen and (min-width:768px) and (max-width:1200px) {
     .footer__btn {
-        margin-left: 120px;
+        margin: auto;
+        display: block;
     }
 }
